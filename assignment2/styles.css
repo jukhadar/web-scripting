@@ -1,0 +1,12 @@
+.spinner {
+    display: none;
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+}
+
+
+h2 {
+    color: green;
+}

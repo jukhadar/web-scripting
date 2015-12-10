@@ -1,0 +1,154 @@
+$('#form').submit(function(e) {
+            e.preventDefault();
+
+            var billingLastName = $('#billingLastName').val();
+            var billingFirstName = $('#billingFirstName').val();
+            var billingStreetaddress = $('#billingStreetaddress').val();
+            var billingCity = $('#billingCity').val();
+            var billingZipcode = $('#billingZipcode').val();
+
+            //Shipping Address
+            var shippingsStreetaddress = $('#shippingsStreetaddress').val();
+            var shippingCity = $('#shippingCity').val();
+            var shippingZipcode = $('#shippingZipcode').val();
+
+            //Credit Card Info
+            var nameOnCard = $('#nameOnCard').val();
+            var credit = $('#credit').val();
+            var threeDigitNumber = $('#threeDigitNumber').val();
+            
+            
+            
+
+            
+        //alert ("ready!");
+
+        // checking if the form's inputs are empty 
+        if (billingLastName.length === 0) {
+            $('#billingLastNameError').toggle();
+            errors = 1;
+        }
+         if (billingFirstName.length === 0) {
+            $('#billingFirstNameError').toggle();
+            errors = 1;
+        }
+        if (billingStreetaddress.length === 0) {
+            $('#billingStreetaddressError').toggle();
+            errors = 1;
+        }
+        if (billingCity.length === 0) {
+            $('#billingCityError').toggle();
+            errors = 1;
+        }
+
+        // zip code validation
+
+        if (billingZipcode.length === 0) {
+            $('#billingZipcodeError').toggle();
+            errors = 1;  
+        }
+        if (billingZipcode.length !== 5){
+            $('#wrongbillingZipcodeError').toggle();
+            errors = 1;  
+        } 
+        if (isNaN(billingZipcode)){      
+            $('#wrong2billingZipcodeError').toggle();
+            errors = 1;  
+            }
+        if (shippingsStreetaddress.length === 0) {
+            $('#shippingsStreetaddressError').toggle();
+            errors = 1;
+        }
+        
+        var billingStateSelect = $('#billingStateSelect').val();
+        if (billingStateSelect.length ===0){
+            $('#billingStateSelectError').toggle();
+            errors = 1;
+        }
+
+        // shipping zip code
+        if (shippingZipcode.length === 0) {
+            $('#shippingZipcodeError').toggle();
+                errors = 1;
+        }
+
+        if (shippingZipcode.length !== 5){
+            $('#shippingZipcodeError1').toggle();
+            errors = 1;
+        } 
+
+        if (isNaN(shippingZipcode)){      
+            $('#shippingZipcodeError2').toggle();
+            errors = 1;
+        }
+
+
+        if (shippingCity.length === 0) {
+            $('#shippingCityError').toggle();
+            errors = 1;
+        }
+        
+        if (nameOnCard.length === 0) {
+            $('#nameOnCardError').toggle();
+            errors = 1;
+        }
+        if (credit.length === 0) {
+            $('#creditError').toggle();
+            errors = 1;
+        }
+        if (credit.length !== 16){
+            $('#credit1Error').toggle();
+            errors = 1;
+        } 
+        if (isNaN(credit)){      
+            $('#credit2Error').toggle();
+            errors = 1;
+            }
+
+        if (threeDigitNumber.length === 0) {
+            $('#threeDigitNumberError').toggle();
+            errors = 1;
+        }
+        if (threeDigitNumber.length !== 3){
+            $('#threeDigitNumber1Error').toggle();
+            errors = 1;
+        } 
+        if (isNaN(threeDigitNumber)){      
+            $('#threeDigitNumber2Error').toggle();
+            errors = 1;
+            }   
+            
+        var shippingStateSelect = $('#billingStateSelect').val();
+        if (shippingStateSelect.length ===0){
+            $('#shippingStateSelectError').toggle();
+            errors = 1;
+        }
+        
+        });
+                
+         $('#credit').change(function() { 
+            
+            var cardId = $('#credit').val().charAt(0);
+            
+            if (cardId == 3){
+                $('#creditAX').show();
+                $('#creditVisa, #creditDis, #creditMaster').hide();
+                
+            } else if (cardId == 4){
+                $('#creditVisa').show();
+                $('#creditDis, #creditAX, #creditMaster').hide();
+            
+            } else if (cardId == 5){
+                $('#creditMaster').show();
+                $('#creditVisa, #creditAX, #creditDis').hide();
+            
+            } else if (cardId == 6){
+                $('#creditDis').show();
+                $('#creditVisa, #creditAX, #creditMaster').hide();
+            }
+         });
+
+                 
+                    
+               
+});

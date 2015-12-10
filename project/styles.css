@@ -1,0 +1,44 @@
+body {
+    font-size: 12px;
+    color: #333;
+    background-color: #E0E0E0 ;
+}
+
+h1 {
+    font-size: 20px;
+}
+
+select {
+    display: block;
+}
+
+input[type="submit"] {
+    padding: 20px 40px;
+    background-color: #680000 ;
+    color: #fff;
+    font-size: 32px;
+    margin-top: 20px;
+}
+
+.spinner {
+    display: none;
+    text-align: center;
+    margin: auto;
+}
+
+.spinner h2 {
+    font-size: 32px;
+    color: navy;
+}
+
+/*validation Error*/
+.nameError,
+.emailError,
+.phoneError,
+.emailError,
+.zipCodeError,
+.bestWayError{
+    color: red;
+    font-size: 9px;
+    /*display: none;*/
+}

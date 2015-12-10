@@ -1,0 +1,87 @@
+/* Google aip key */
+
+AIzaSyDd4Cv2-WDmn9hTLRZ9ZiDqgdVC98hMZDw
+
+
+
+/*Get LatLng from Zip Code - Google Maps API*/
+var lat = '';
+    var lng = '';
+    var address = {zipcode} or {city and state};
+    geocoder.geocode( { 'address': address}, function(results, status) {
+      if (status == google.maps.GeocoderStatus.OK) {
+         lat = results[0].geometry.location.lat();
+         lng = results[0].geometry.location.lng();
+        });
+      } else {
+        alert("Geocode was not successful for the following reason: " + status);
+      }
+    });
+    alert('Latitude: ' + lat + ' Logitude: ' + lng);
+    
+    
+    
+    
+  /*Searching Near a Geocode*/  
+    function searchLocations() {
+  var address = document.getElementById("addressInput").value;
+  var geocoder = new google.maps.Geocoder();
+  geocoder.geocode({address: address}, function(results, status) {
+    if (status == google.maps.GeocoderStatus.OK) {
+      searchLocationsNear(results[0].geometry.location);
+    } else {
+      alert(address + ' not found');
+    }
+  });
+}
+
+
+/*Convert the JSON results to an array*/
+var arr = $.map(obj, function(el) { return el });
+/*JS*/
+var arr = Object.keys(obj).map(function(k) { return obj[k] });
+
+
+
+/*Setup a function to call the Google Maps Places API and get the search results within AJAX*/
+
+function initialize() {
+  var pyrmont = new google.maps.LatLng(-33.8665, 151.1956);
+
+  var map = new google.maps.Map(document.getElementById('map'), {
+    center: pyrmont,
+    zoom: 15,
+    scrollwheel: false
+  });
+
+  // Specify location, radius and place types for your Places API search.
+  var request = {
+    location: pyrmont,
+    radius: '500',
+    types: ['store']
+  };
+  
+  
+  // https://developers.google.com/places/javascript/
+
+  // Create the PlaceService and send the request.
+  // Handle the callback with an anonymous function.
+  var service = new google.maps.places.PlacesService(map);
+  service.nearbySearch(request, function(results, status) {
+    if (status == google.maps.places.PlacesServiceStatus.OK) {
+      for (var i = 0; i < results.length; i++) {
+        var place = results[i];
+        // If the request succeeds, draw the place location on
+        // the map as a marker, and register an event to handle a
+        // click on the marker.
+        var marker = new google.maps.Marker({
+          map: map,
+          position: place.geometry.location
+        });
+      }
+    }
+  });
+}
+
+// Run the initialize function when the window has finished loading.
+google.maps.event.addDomListener(window, 'load', initialize);

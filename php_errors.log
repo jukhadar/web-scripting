@@ -1,0 +1,1421 @@
+[20-Oct-2015 15:51:03 UTC] PHP Warning:  mysqli::mysqli(): (HY000/1045): Access denied for user 'nelsonka'@'localhost' (using password: NO) in /home/ubuntu/workspace/weekThree/socket.php on line 8
+[20-Oct-2015 15:51:03 UTC] PHP Stack trace:
+[20-Oct-2015 15:51:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/weekThree/index.php:0
+[20-Oct-2015 15:51:03 UTC] PHP   2. require() /home/ubuntu/workspace/weekThree/index.php:8
+[20-Oct-2015 15:51:03 UTC] PHP   3. mysqli->mysqli() /home/ubuntu/workspace/weekThree/socket.php:8
+[20-Oct-2015 20:50:30 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/ubuntu/workspace/weekTwo/showTables.php on line 5
+[20-Oct-2015 20:50:30 UTC] PHP Stack trace:
+[20-Oct-2015 20:50:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/weekTwo/showTables.php:0
+[20-Oct-2015 20:53:04 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/ubuntu/workspace/weekTwo/showTables.php on line 5
+[20-Oct-2015 20:53:04 UTC] PHP Stack trace:
+[20-Oct-2015 20:53:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/weekTwo/showTables.php:0
+[20-Oct-2015 20:53:06 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/ubuntu/workspace/weekTwo/showTables.php on line 5
+[20-Oct-2015 20:53:06 UTC] PHP Stack trace:
+[20-Oct-2015 20:53:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/weekTwo/showTables.php:0
+[20-Oct-2015 20:56:41 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/ubuntu/workspace/assignment2/showTables.php on line 5
+[20-Oct-2015 20:56:41 UTC] PHP Stack trace:
+[20-Oct-2015 20:56:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment2/showTables.php:0
+[20-Oct-2015 20:57:03 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/ubuntu/workspace/assignment2/showTables.php on line 5
+[20-Oct-2015 20:57:03 UTC] PHP Stack trace:
+[20-Oct-2015 20:57:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment2/showTables.php:0
+[20-Oct-2015 21:04:33 UTC] PHP Warning:  mysqli::query(): Empty query in /home/ubuntu/workspace/assignment2/showTables.php on line 5
+[20-Oct-2015 21:04:33 UTC] PHP Stack trace:
+[20-Oct-2015 21:04:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment2/showTables.php:0
+[20-Oct-2015 21:04:33 UTC] PHP   2. mysqli->query() /home/ubuntu/workspace/assignment2/showTables.php:5
+[21-Oct-2015 00:39:09 UTC] PHP Parse error:  syntax error, unexpected '"<th style=''>"' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/ubuntu/workspace/assignment2/showTables.php on line 17
+[21-Oct-2015 00:39:12 UTC] PHP Parse error:  syntax error, unexpected '"<th style=''>"' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/ubuntu/workspace/assignment2/showTables.php on line 17
+[22-Oct-2015 03:36:11 UTC] PHP Parse error:  syntax error, unexpected '"<tr width = '200' align ='lef' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/ubuntu/workspace/assignment2/showTables.php on line 12
+[22-Oct-2015 03:36:13 UTC] PHP Parse error:  syntax error, unexpected '"<tr width = '200' align ='lef' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/ubuntu/workspace/assignment2/showTables.php on line 12
+[22-Oct-2015 03:56:07 UTC] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/assignment3/handler.php on line 28
+[22-Oct-2015 03:56:07 UTC] PHP Stack trace:
+[22-Oct-2015 03:56:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[22-Oct-2015 03:56:07 UTC] PHP   2. findCarMakes() /home/ubuntu/workspace/assignment3/handler.php:8
+[22-Oct-2015 03:56:07 UTC] PHP   3. mysqli_fetch_all() /home/ubuntu/workspace/assignment3/handler.php:28
+[22-Oct-2015 03:56:55 UTC] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/assignment3/handler.php on line 28
+[22-Oct-2015 03:56:55 UTC] PHP Stack trace:
+[22-Oct-2015 03:56:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[22-Oct-2015 03:56:55 UTC] PHP   2. findCarMakes() /home/ubuntu/workspace/assignment3/handler.php:8
+[22-Oct-2015 03:56:55 UTC] PHP   3. mysqli_fetch_all() /home/ubuntu/workspace/assignment3/handler.php:28
+[22-Oct-2015 03:57:04 UTC] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/assignment3/handler.php on line 28
+[22-Oct-2015 03:57:04 UTC] PHP Stack trace:
+[22-Oct-2015 03:57:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[22-Oct-2015 03:57:04 UTC] PHP   2. findCarMakes() /home/ubuntu/workspace/assignment3/handler.php:8
+[22-Oct-2015 03:57:04 UTC] PHP   3. mysqli_fetch_all() /home/ubuntu/workspace/assignment3/handler.php:28
+[22-Oct-2015 03:57:22 UTC] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/assignment3/handler.php on line 28
+[22-Oct-2015 03:57:22 UTC] PHP Stack trace:
+[22-Oct-2015 03:57:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[22-Oct-2015 03:57:22 UTC] PHP   2. findCarMakes() /home/ubuntu/workspace/assignment3/handler.php:8
+[22-Oct-2015 03:57:22 UTC] PHP   3. mysqli_fetch_all() /home/ubuntu/workspace/assignment3/handler.php:28
+[29-Oct-2015 02:11:12 UTC] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/assignment3/handler.php on line 54
+[29-Oct-2015 02:11:12 UTC] PHP Stack trace:
+[29-Oct-2015 02:11:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[29-Oct-2015 02:11:12 UTC] PHP   2. findCarEngines() /home/ubuntu/workspace/assignment3/handler.php:14
+[29-Oct-2015 02:11:12 UTC] PHP   3. mysqli_fetch_all() /home/ubuntu/workspace/assignment3/handler.php:54
+[29-Oct-2015 02:11:14 UTC] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/assignment3/handler.php on line 54
+[29-Oct-2015 02:11:14 UTC] PHP Stack trace:
+[29-Oct-2015 02:11:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[29-Oct-2015 02:11:14 UTC] PHP   2. findCarEngines() /home/ubuntu/workspace/assignment3/handler.php:14
+[29-Oct-2015 02:11:14 UTC] PHP   3. mysqli_fetch_all() /home/ubuntu/workspace/assignment3/handler.php:54
+[29-Oct-2015 02:16:09 UTC] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/assignment3/handler.php on line 54
+[29-Oct-2015 02:16:09 UTC] PHP Stack trace:
+[29-Oct-2015 02:16:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[29-Oct-2015 02:16:09 UTC] PHP   2. findCarEngines() /home/ubuntu/workspace/assignment3/handler.php:14
+[29-Oct-2015 02:16:09 UTC] PHP   3. mysqli_fetch_all() /home/ubuntu/workspace/assignment3/handler.php:54
+[29-Oct-2015 02:21:50 UTC] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/assignment3/handler.php on line 54
+[29-Oct-2015 02:21:50 UTC] PHP Stack trace:
+[29-Oct-2015 02:21:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[29-Oct-2015 02:21:50 UTC] PHP   2. findCarEngines() /home/ubuntu/workspace/assignment3/handler.php:14
+[29-Oct-2015 02:21:50 UTC] PHP   3. mysqli_fetch_all() /home/ubuntu/workspace/assignment3/handler.php:54
+[02-Nov-2015 04:20:15 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[02-Nov-2015 04:20:15 UTC] PHP Stack trace:
+[02-Nov-2015 04:20:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[02-Nov-2015 04:20:15 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[02-Nov-2015 04:20:15 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[02-Nov-2015 04:20:15 UTC] PHP Stack trace:
+[02-Nov-2015 04:20:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[02-Nov-2015 04:20:15 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[02-Nov-2015 04:20:18 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[02-Nov-2015 04:20:18 UTC] PHP Stack trace:
+[02-Nov-2015 04:20:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[02-Nov-2015 04:20:18 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[02-Nov-2015 04:20:18 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[02-Nov-2015 04:20:18 UTC] PHP Stack trace:
+[02-Nov-2015 04:20:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[02-Nov-2015 04:20:18 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[02-Nov-2015 04:26:52 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[02-Nov-2015 04:26:52 UTC] PHP Stack trace:
+[02-Nov-2015 04:26:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[02-Nov-2015 04:26:52 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[02-Nov-2015 04:26:52 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[02-Nov-2015 04:26:52 UTC] PHP Stack trace:
+[02-Nov-2015 04:26:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[02-Nov-2015 04:26:52 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[02-Nov-2015 04:26:54 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[02-Nov-2015 04:26:54 UTC] PHP Stack trace:
+[02-Nov-2015 04:26:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[02-Nov-2015 04:26:54 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[02-Nov-2015 04:26:54 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[02-Nov-2015 04:26:54 UTC] PHP Stack trace:
+[02-Nov-2015 04:26:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[02-Nov-2015 04:26:54 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[02-Nov-2015 04:26:59 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[02-Nov-2015 04:26:59 UTC] PHP Stack trace:
+[02-Nov-2015 04:26:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[02-Nov-2015 04:26:59 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[02-Nov-2015 04:26:59 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[02-Nov-2015 04:26:59 UTC] PHP Stack trace:
+[02-Nov-2015 04:26:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[02-Nov-2015 04:26:59 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[02-Nov-2015 04:27:09 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[02-Nov-2015 04:27:09 UTC] PHP Stack trace:
+[02-Nov-2015 04:27:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[02-Nov-2015 04:27:09 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[02-Nov-2015 04:27:09 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[02-Nov-2015 04:27:09 UTC] PHP Stack trace:
+[02-Nov-2015 04:27:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[02-Nov-2015 04:27:09 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[02-Nov-2015 04:27:22 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[02-Nov-2015 04:27:22 UTC] PHP Stack trace:
+[02-Nov-2015 04:27:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[02-Nov-2015 04:27:22 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[02-Nov-2015 04:27:22 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[02-Nov-2015 04:27:22 UTC] PHP Stack trace:
+[02-Nov-2015 04:27:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[02-Nov-2015 04:27:22 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[02-Nov-2015 04:27:32 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[02-Nov-2015 04:27:32 UTC] PHP Stack trace:
+[02-Nov-2015 04:27:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[02-Nov-2015 04:27:32 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[02-Nov-2015 04:27:32 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[02-Nov-2015 04:27:32 UTC] PHP Stack trace:
+[02-Nov-2015 04:27:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[02-Nov-2015 04:27:32 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[02-Nov-2015 04:29:37 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[02-Nov-2015 04:29:37 UTC] PHP Stack trace:
+[02-Nov-2015 04:29:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[02-Nov-2015 04:29:37 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[02-Nov-2015 04:29:37 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[02-Nov-2015 04:29:37 UTC] PHP Stack trace:
+[02-Nov-2015 04:29:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[02-Nov-2015 04:29:37 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[02-Nov-2015 04:29:53 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[02-Nov-2015 04:29:53 UTC] PHP Stack trace:
+[02-Nov-2015 04:29:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[02-Nov-2015 04:29:53 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[02-Nov-2015 04:29:53 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[02-Nov-2015 04:29:53 UTC] PHP Stack trace:
+[02-Nov-2015 04:29:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[02-Nov-2015 04:29:53 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[02-Nov-2015 04:32:52 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'jukhadar'@'localhost' (using password: YES) in /home/ubuntu/workspace/assignment3/socket.php on line 9
+[02-Nov-2015 04:32:52 UTC] PHP Stack trace:
+[02-Nov-2015 04:32:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[02-Nov-2015 04:32:52 UTC] PHP   2. require() /home/ubuntu/workspace/assignment3/handler.php:3
+[02-Nov-2015 04:32:52 UTC] PHP   3. mysqli_connect() /home/ubuntu/workspace/assignment3/socket.php:9
+[02-Nov-2015 04:32:54 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'jukhadar'@'localhost' (using password: YES) in /home/ubuntu/workspace/assignment3/socket.php on line 9
+[02-Nov-2015 04:32:54 UTC] PHP Stack trace:
+[02-Nov-2015 04:32:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[02-Nov-2015 04:32:54 UTC] PHP   2. require() /home/ubuntu/workspace/assignment3/handler.php:3
+[02-Nov-2015 04:32:54 UTC] PHP   3. mysqli_connect() /home/ubuntu/workspace/assignment3/socket.php:9
+[02-Nov-2015 04:34:27 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'jukhadar'@'localhost' (using password: YES) in /home/ubuntu/workspace/assignment3/socket.php on line 9
+[02-Nov-2015 04:34:27 UTC] PHP Stack trace:
+[02-Nov-2015 04:34:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[02-Nov-2015 04:34:27 UTC] PHP   2. require() /home/ubuntu/workspace/assignment3/handler.php:3
+[02-Nov-2015 04:34:27 UTC] PHP   3. mysqli_connect() /home/ubuntu/workspace/assignment3/socket.php:9
+[02-Nov-2015 04:36:08 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'jukhadar'@'localhost' (using password: YES) in /home/ubuntu/workspace/assignment3/socket.php on line 9
+[02-Nov-2015 04:36:08 UTC] PHP Stack trace:
+[02-Nov-2015 04:36:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/index.php:0
+[02-Nov-2015 04:36:08 UTC] PHP   2. require() /home/ubuntu/workspace/assignment3/index.php:5
+[02-Nov-2015 04:36:08 UTC] PHP   3. mysqli_connect() /home/ubuntu/workspace/assignment3/socket.php:9
+[02-Nov-2015 04:36:10 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'jukhadar'@'localhost' (using password: YES) in /home/ubuntu/workspace/assignment3/socket.php on line 9
+[02-Nov-2015 04:36:10 UTC] PHP Stack trace:
+[02-Nov-2015 04:36:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[02-Nov-2015 04:36:10 UTC] PHP   2. require() /home/ubuntu/workspace/assignment3/handler.php:3
+[02-Nov-2015 04:36:10 UTC] PHP   3. mysqli_connect() /home/ubuntu/workspace/assignment3/socket.php:9
+[02-Nov-2015 04:36:13 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'jukhadar'@'localhost' (using password: YES) in /home/ubuntu/workspace/assignment3/socket.php on line 9
+[02-Nov-2015 04:36:13 UTC] PHP Stack trace:
+[02-Nov-2015 04:36:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/index.php:0
+[02-Nov-2015 04:36:13 UTC] PHP   2. require() /home/ubuntu/workspace/assignment3/index.php:5
+[02-Nov-2015 04:36:13 UTC] PHP   3. mysqli_connect() /home/ubuntu/workspace/assignment3/socket.php:9
+[02-Nov-2015 04:36:51 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'jukhadar'@'localhost' (using password: YES) in /home/ubuntu/workspace/assignment3/socket.php on line 9
+[02-Nov-2015 04:36:51 UTC] PHP Stack trace:
+[02-Nov-2015 04:36:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/index.php:0
+[02-Nov-2015 04:36:51 UTC] PHP   2. require() /home/ubuntu/workspace/assignment3/index.php:5
+[02-Nov-2015 04:36:51 UTC] PHP   3. mysqli_connect() /home/ubuntu/workspace/assignment3/socket.php:9
+[02-Nov-2015 04:37:42 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[02-Nov-2015 04:37:42 UTC] PHP Stack trace:
+[02-Nov-2015 04:37:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[02-Nov-2015 04:37:42 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[02-Nov-2015 04:37:42 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[02-Nov-2015 04:37:42 UTC] PHP Stack trace:
+[02-Nov-2015 04:37:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[02-Nov-2015 04:37:42 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[02-Nov-2015 04:37:52 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[02-Nov-2015 04:37:52 UTC] PHP Stack trace:
+[02-Nov-2015 04:37:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[02-Nov-2015 04:37:52 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[02-Nov-2015 04:37:52 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[02-Nov-2015 04:37:52 UTC] PHP Stack trace:
+[02-Nov-2015 04:37:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[02-Nov-2015 04:37:52 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[02-Nov-2015 04:41:08 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[02-Nov-2015 04:41:08 UTC] PHP Stack trace:
+[02-Nov-2015 04:41:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[02-Nov-2015 04:41:08 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[02-Nov-2015 04:41:08 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[02-Nov-2015 04:41:08 UTC] PHP Stack trace:
+[02-Nov-2015 04:41:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[02-Nov-2015 04:41:08 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[02-Nov-2015 04:41:21 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[02-Nov-2015 04:41:21 UTC] PHP Stack trace:
+[02-Nov-2015 04:41:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[02-Nov-2015 04:41:21 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[02-Nov-2015 04:41:21 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[02-Nov-2015 04:41:21 UTC] PHP Stack trace:
+[02-Nov-2015 04:41:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[02-Nov-2015 04:41:21 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[02-Nov-2015 04:42:06 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'jukhadar'@'localhost' (using password: YES) in /home/ubuntu/workspace/assignment3/socket.php on line 9
+[02-Nov-2015 04:42:06 UTC] PHP Stack trace:
+[02-Nov-2015 04:42:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[02-Nov-2015 04:42:06 UTC] PHP   2. require() /home/ubuntu/workspace/assignment3/handler.php:3
+[02-Nov-2015 04:42:06 UTC] PHP   3. mysqli_connect() /home/ubuntu/workspace/assignment3/socket.php:9
+[02-Nov-2015 04:42:07 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'jukhadar'@'localhost' (using password: YES) in /home/ubuntu/workspace/assignment3/socket.php on line 9
+[02-Nov-2015 04:42:07 UTC] PHP Stack trace:
+[02-Nov-2015 04:42:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[02-Nov-2015 04:42:07 UTC] PHP   2. require() /home/ubuntu/workspace/assignment3/handler.php:3
+[02-Nov-2015 04:42:07 UTC] PHP   3. mysqli_connect() /home/ubuntu/workspace/assignment3/socket.php:9
+[02-Nov-2015 04:45:34 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'jukhadar'@'localhost' (using password: YES) in /home/ubuntu/workspace/assignment3/socket.php on line 9
+[02-Nov-2015 04:45:34 UTC] PHP Stack trace:
+[02-Nov-2015 04:45:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[02-Nov-2015 04:45:34 UTC] PHP   2. require() /home/ubuntu/workspace/assignment3/handler.php:3
+[02-Nov-2015 04:45:34 UTC] PHP   3. mysqli_connect() /home/ubuntu/workspace/assignment3/socket.php:9
+[02-Nov-2015 04:45:35 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'jukhadar'@'localhost' (using password: YES) in /home/ubuntu/workspace/assignment3/socket.php on line 9
+[02-Nov-2015 04:45:35 UTC] PHP Stack trace:
+[02-Nov-2015 04:45:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[02-Nov-2015 04:45:35 UTC] PHP   2. require() /home/ubuntu/workspace/assignment3/handler.php:3
+[02-Nov-2015 04:45:35 UTC] PHP   3. mysqli_connect() /home/ubuntu/workspace/assignment3/socket.php:9
+[02-Nov-2015 04:45:36 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'jukhadar'@'localhost' (using password: YES) in /home/ubuntu/workspace/assignment3/socket.php on line 9
+[02-Nov-2015 04:45:36 UTC] PHP Stack trace:
+[02-Nov-2015 04:45:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[02-Nov-2015 04:45:36 UTC] PHP   2. require() /home/ubuntu/workspace/assignment3/handler.php:3
+[02-Nov-2015 04:45:36 UTC] PHP   3. mysqli_connect() /home/ubuntu/workspace/assignment3/socket.php:9
+[02-Nov-2015 04:49:16 UTC] PHP Warning:  mysqli::mysqli(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/assignment3/socket.php on line 13
+[02-Nov-2015 04:49:16 UTC] PHP Stack trace:
+[02-Nov-2015 04:49:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[02-Nov-2015 04:49:16 UTC] PHP   2. require() /home/ubuntu/workspace/assignment3/handler.php:3
+[02-Nov-2015 04:49:16 UTC] PHP   3. mysqli->mysqli() /home/ubuntu/workspace/assignment3/socket.php:13
+[02-Nov-2015 04:49:17 UTC] PHP Warning:  mysqli::mysqli(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/assignment3/socket.php on line 13
+[02-Nov-2015 04:49:17 UTC] PHP Stack trace:
+[02-Nov-2015 04:49:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[02-Nov-2015 04:49:17 UTC] PHP   2. require() /home/ubuntu/workspace/assignment3/handler.php:3
+[02-Nov-2015 04:49:17 UTC] PHP   3. mysqli->mysqli() /home/ubuntu/workspace/assignment3/socket.php:13
+[02-Nov-2015 04:49:28 UTC] PHP Warning:  mysqli::mysqli(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/assignment3/socket.php on line 13
+[02-Nov-2015 04:49:28 UTC] PHP Stack trace:
+[02-Nov-2015 04:49:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[02-Nov-2015 04:49:28 UTC] PHP   2. require() /home/ubuntu/workspace/assignment3/handler.php:3
+[02-Nov-2015 04:49:28 UTC] PHP   3. mysqli->mysqli() /home/ubuntu/workspace/assignment3/socket.php:13
+[02-Nov-2015 04:49:51 UTC] PHP Warning:  mysqli::mysqli(): (HY000/1045): Access denied for user ''@'localhost' (using password: YES) in /home/ubuntu/workspace/assignment3/socket.php on line 13
+[02-Nov-2015 04:49:51 UTC] PHP Stack trace:
+[02-Nov-2015 04:49:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[02-Nov-2015 04:49:51 UTC] PHP   2. require() /home/ubuntu/workspace/assignment3/handler.php:3
+[02-Nov-2015 04:49:51 UTC] PHP   3. mysqli->mysqli() /home/ubuntu/workspace/assignment3/socket.php:13
+[02-Nov-2015 04:49:52 UTC] PHP Warning:  mysqli::mysqli(): (HY000/1045): Access denied for user ''@'localhost' (using password: YES) in /home/ubuntu/workspace/assignment3/socket.php on line 13
+[02-Nov-2015 04:49:52 UTC] PHP Stack trace:
+[02-Nov-2015 04:49:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[02-Nov-2015 04:49:52 UTC] PHP   2. require() /home/ubuntu/workspace/assignment3/handler.php:3
+[02-Nov-2015 04:49:52 UTC] PHP   3. mysqli->mysqli() /home/ubuntu/workspace/assignment3/socket.php:13
+[02-Nov-2015 04:53:50 UTC] PHP Fatal error:  Class 'mysqli_connect' not found in /home/ubuntu/workspace/assignment3/socket.php on line 13
+[02-Nov-2015 04:53:50 UTC] PHP Stack trace:
+[02-Nov-2015 04:53:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[02-Nov-2015 04:53:50 UTC] PHP   2. require() /home/ubuntu/workspace/assignment3/handler.php:3
+[02-Nov-2015 04:53:51 UTC] PHP Fatal error:  Class 'mysqli_connect' not found in /home/ubuntu/workspace/assignment3/socket.php on line 13
+[02-Nov-2015 04:53:51 UTC] PHP Stack trace:
+[02-Nov-2015 04:53:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[02-Nov-2015 04:53:51 UTC] PHP   2. require() /home/ubuntu/workspace/assignment3/handler.php:3
+[02-Nov-2015 04:55:20 UTC] PHP Warning:  mysqli::mysqli(): (HY000/1045): Access denied for user ''@'localhost' (using password: YES) in /home/ubuntu/workspace/assignment3/socket.php on line 13
+[02-Nov-2015 04:55:20 UTC] PHP Stack trace:
+[02-Nov-2015 04:55:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[02-Nov-2015 04:55:20 UTC] PHP   2. require() /home/ubuntu/workspace/assignment3/handler.php:3
+[02-Nov-2015 04:55:20 UTC] PHP   3. mysqli->mysqli() /home/ubuntu/workspace/assignment3/socket.php:13
+[02-Nov-2015 04:55:22 UTC] PHP Warning:  mysqli::mysqli(): (HY000/1045): Access denied for user ''@'localhost' (using password: YES) in /home/ubuntu/workspace/assignment3/socket.php on line 13
+[02-Nov-2015 04:55:22 UTC] PHP Stack trace:
+[02-Nov-2015 04:55:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[02-Nov-2015 04:55:22 UTC] PHP   2. require() /home/ubuntu/workspace/assignment3/handler.php:3
+[02-Nov-2015 04:55:22 UTC] PHP   3. mysqli->mysqli() /home/ubuntu/workspace/assignment3/socket.php:13
+[02-Nov-2015 04:59:32 UTC] PHP Warning:  mysqli::mysqli(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/assignment3/socket.php on line 13
+[02-Nov-2015 04:59:32 UTC] PHP Stack trace:
+[02-Nov-2015 04:59:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[02-Nov-2015 04:59:32 UTC] PHP   2. require() /home/ubuntu/workspace/assignment3/handler.php:3
+[02-Nov-2015 04:59:32 UTC] PHP   3. mysqli->mysqli() /home/ubuntu/workspace/assignment3/socket.php:13
+[02-Nov-2015 04:59:33 UTC] PHP Warning:  mysqli::mysqli(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/assignment3/socket.php on line 13
+[02-Nov-2015 04:59:33 UTC] PHP Stack trace:
+[02-Nov-2015 04:59:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[02-Nov-2015 04:59:33 UTC] PHP   2. require() /home/ubuntu/workspace/assignment3/handler.php:3
+[02-Nov-2015 04:59:33 UTC] PHP   3. mysqli->mysqli() /home/ubuntu/workspace/assignment3/socket.php:13
+[02-Nov-2015 05:03:02 UTC] PHP Warning:  mysqli::mysqli(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/assignment3/socket.php on line 13
+[02-Nov-2015 05:03:02 UTC] PHP Stack trace:
+[02-Nov-2015 05:03:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[02-Nov-2015 05:03:02 UTC] PHP   2. require() /home/ubuntu/workspace/assignment3/handler.php:3
+[02-Nov-2015 05:03:02 UTC] PHP   3. mysqli->mysqli() /home/ubuntu/workspace/assignment3/socket.php:13
+[02-Nov-2015 05:08:37 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[02-Nov-2015 05:08:37 UTC] PHP Stack trace:
+[02-Nov-2015 05:08:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[02-Nov-2015 05:08:37 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[02-Nov-2015 05:08:37 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[02-Nov-2015 05:08:37 UTC] PHP Stack trace:
+[02-Nov-2015 05:08:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[02-Nov-2015 05:08:37 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[02-Nov-2015 05:08:39 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[02-Nov-2015 05:08:39 UTC] PHP Stack trace:
+[02-Nov-2015 05:08:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[02-Nov-2015 05:08:39 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[02-Nov-2015 05:08:39 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[02-Nov-2015 05:08:39 UTC] PHP Stack trace:
+[02-Nov-2015 05:08:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[02-Nov-2015 05:08:39 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[02-Nov-2015 05:55:50 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[02-Nov-2015 05:55:50 UTC] PHP Stack trace:
+[02-Nov-2015 05:55:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[02-Nov-2015 05:55:50 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[02-Nov-2015 05:55:50 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[02-Nov-2015 05:55:50 UTC] PHP Stack trace:
+[02-Nov-2015 05:55:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[02-Nov-2015 05:55:50 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[02-Nov-2015 05:55:52 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[02-Nov-2015 05:55:52 UTC] PHP Stack trace:
+[02-Nov-2015 05:55:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[02-Nov-2015 05:55:52 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[02-Nov-2015 05:55:52 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[02-Nov-2015 05:55:52 UTC] PHP Stack trace:
+[02-Nov-2015 05:55:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[02-Nov-2015 05:55:52 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[02-Nov-2015 06:02:15 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'jukhadar'@'localhost' (using password: YES) in /home/ubuntu/workspace/assignment3/socket.php on line 9
+[02-Nov-2015 06:02:15 UTC] PHP Stack trace:
+[02-Nov-2015 06:02:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[02-Nov-2015 06:02:15 UTC] PHP   2. require() /home/ubuntu/workspace/assignment3/handler.php:3
+[02-Nov-2015 06:02:15 UTC] PHP   3. mysqli_connect() /home/ubuntu/workspace/assignment3/socket.php:9
+[02-Nov-2015 06:08:34 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[02-Nov-2015 06:08:34 UTC] PHP Stack trace:
+[02-Nov-2015 06:08:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[02-Nov-2015 06:08:34 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[02-Nov-2015 06:08:34 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[02-Nov-2015 06:08:34 UTC] PHP Stack trace:
+[02-Nov-2015 06:08:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[02-Nov-2015 06:08:34 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[02-Nov-2015 06:08:38 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[02-Nov-2015 06:08:38 UTC] PHP Stack trace:
+[02-Nov-2015 06:08:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[02-Nov-2015 06:08:38 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[02-Nov-2015 06:08:38 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[02-Nov-2015 06:08:38 UTC] PHP Stack trace:
+[02-Nov-2015 06:08:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[02-Nov-2015 06:08:38 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[02-Nov-2015 06:08:40 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[02-Nov-2015 06:08:40 UTC] PHP Stack trace:
+[02-Nov-2015 06:08:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[02-Nov-2015 06:08:40 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[02-Nov-2015 06:08:40 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[02-Nov-2015 06:08:40 UTC] PHP Stack trace:
+[02-Nov-2015 06:08:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[02-Nov-2015 06:08:40 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[02-Nov-2015 06:08:43 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[02-Nov-2015 06:08:43 UTC] PHP Stack trace:
+[02-Nov-2015 06:08:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[02-Nov-2015 06:08:43 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[02-Nov-2015 06:08:43 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[02-Nov-2015 06:08:43 UTC] PHP Stack trace:
+[02-Nov-2015 06:08:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[02-Nov-2015 06:08:43 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[02-Nov-2015 06:09:01 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[02-Nov-2015 06:09:01 UTC] PHP Stack trace:
+[02-Nov-2015 06:09:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[02-Nov-2015 06:09:01 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[02-Nov-2015 06:09:01 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[02-Nov-2015 06:09:01 UTC] PHP Stack trace:
+[02-Nov-2015 06:09:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[02-Nov-2015 06:09:01 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[02-Nov-2015 06:11:15 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'jukhadar'@'localhost' (using password: YES) in /home/ubuntu/workspace/assignment3/socket.php on line 9
+[02-Nov-2015 06:11:15 UTC] PHP Stack trace:
+[02-Nov-2015 06:11:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[02-Nov-2015 06:11:15 UTC] PHP   2. require() /home/ubuntu/workspace/assignment3/handler.php:3
+[02-Nov-2015 06:11:15 UTC] PHP   3. mysqli_connect() /home/ubuntu/workspace/assignment3/socket.php:9
+[02-Nov-2015 06:11:16 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'jukhadar'@'localhost' (using password: YES) in /home/ubuntu/workspace/assignment3/socket.php on line 9
+[02-Nov-2015 06:11:16 UTC] PHP Stack trace:
+[02-Nov-2015 06:11:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[02-Nov-2015 06:11:16 UTC] PHP   2. require() /home/ubuntu/workspace/assignment3/handler.php:3
+[02-Nov-2015 06:11:16 UTC] PHP   3. mysqli_connect() /home/ubuntu/workspace/assignment3/socket.php:9
+[02-Nov-2015 06:14:05 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'jukhadar'@'localhost' (using password: YES) in /home/ubuntu/workspace/assignment3/socket.php on line 9
+[02-Nov-2015 06:14:05 UTC] PHP Stack trace:
+[02-Nov-2015 06:14:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[02-Nov-2015 06:14:05 UTC] PHP   2. require() /home/ubuntu/workspace/assignment3/handler.php:3
+[02-Nov-2015 06:14:05 UTC] PHP   3. mysqli_connect() /home/ubuntu/workspace/assignment3/socket.php:9
+[02-Nov-2015 06:14:14 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'jukhadar'@'localhost' (using password: YES) in /home/ubuntu/workspace/assignment3/socket.php on line 9
+[02-Nov-2015 06:14:14 UTC] PHP Stack trace:
+[02-Nov-2015 06:14:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[02-Nov-2015 06:14:14 UTC] PHP   2. require() /home/ubuntu/workspace/assignment3/handler.php:3
+[02-Nov-2015 06:14:14 UTC] PHP   3. mysqli_connect() /home/ubuntu/workspace/assignment3/socket.php:9
+[02-Nov-2015 06:14:19 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'jukhadar'@'localhost' (using password: YES) in /home/ubuntu/workspace/assignment3/socket.php on line 9
+[02-Nov-2015 06:14:19 UTC] PHP Stack trace:
+[02-Nov-2015 06:14:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/index.php:0
+[02-Nov-2015 06:14:19 UTC] PHP   2. require() /home/ubuntu/workspace/assignment3/index.php:5
+[02-Nov-2015 06:14:19 UTC] PHP   3. mysqli_connect() /home/ubuntu/workspace/assignment3/socket.php:9
+[02-Nov-2015 06:14:21 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'jukhadar'@'localhost' (using password: YES) in /home/ubuntu/workspace/assignment3/socket.php on line 9
+[02-Nov-2015 06:14:21 UTC] PHP Stack trace:
+[02-Nov-2015 06:14:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/index.php:0
+[02-Nov-2015 06:14:21 UTC] PHP   2. require() /home/ubuntu/workspace/assignment3/index.php:5
+[02-Nov-2015 06:14:21 UTC] PHP   3. mysqli_connect() /home/ubuntu/workspace/assignment3/socket.php:9
+[02-Nov-2015 06:14:24 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'jukhadar'@'localhost' (using password: YES) in /home/ubuntu/workspace/assignment3/socket.php on line 9
+[02-Nov-2015 06:14:24 UTC] PHP Stack trace:
+[02-Nov-2015 06:14:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/index.php:0
+[02-Nov-2015 06:14:24 UTC] PHP   2. require() /home/ubuntu/workspace/assignment3/index.php:5
+[02-Nov-2015 06:14:24 UTC] PHP   3. mysqli_connect() /home/ubuntu/workspace/assignment3/socket.php:9
+[02-Nov-2015 06:14:25 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'jukhadar'@'localhost' (using password: YES) in /home/ubuntu/workspace/assignment3/socket.php on line 9
+[02-Nov-2015 06:14:25 UTC] PHP Stack trace:
+[02-Nov-2015 06:14:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/index.php:0
+[02-Nov-2015 06:14:25 UTC] PHP   2. require() /home/ubuntu/workspace/assignment3/index.php:5
+[02-Nov-2015 06:14:25 UTC] PHP   3. mysqli_connect() /home/ubuntu/workspace/assignment3/socket.php:9
+[02-Nov-2015 06:14:26 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'jukhadar'@'localhost' (using password: YES) in /home/ubuntu/workspace/assignment3/socket.php on line 9
+[02-Nov-2015 06:14:26 UTC] PHP Stack trace:
+[02-Nov-2015 06:14:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/index.php:0
+[02-Nov-2015 06:14:26 UTC] PHP   2. require() /home/ubuntu/workspace/assignment3/index.php:5
+[02-Nov-2015 06:14:26 UTC] PHP   3. mysqli_connect() /home/ubuntu/workspace/assignment3/socket.php:9
+[02-Nov-2015 06:17:04 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[02-Nov-2015 06:17:04 UTC] PHP Stack trace:
+[02-Nov-2015 06:17:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[02-Nov-2015 06:17:04 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[02-Nov-2015 06:17:04 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[02-Nov-2015 06:17:04 UTC] PHP Stack trace:
+[02-Nov-2015 06:17:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[02-Nov-2015 06:17:04 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[02-Nov-2015 06:17:23 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[02-Nov-2015 06:17:23 UTC] PHP Stack trace:
+[02-Nov-2015 06:17:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[02-Nov-2015 06:17:23 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[02-Nov-2015 06:17:23 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[02-Nov-2015 06:17:23 UTC] PHP Stack trace:
+[02-Nov-2015 06:17:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[02-Nov-2015 06:17:23 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[02-Nov-2015 06:24:16 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[02-Nov-2015 06:24:16 UTC] PHP Stack trace:
+[02-Nov-2015 06:24:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[02-Nov-2015 06:24:16 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[02-Nov-2015 06:24:16 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[02-Nov-2015 06:24:16 UTC] PHP Stack trace:
+[02-Nov-2015 06:24:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[02-Nov-2015 06:24:16 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[02-Nov-2015 06:24:17 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[02-Nov-2015 06:24:17 UTC] PHP Stack trace:
+[02-Nov-2015 06:24:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[02-Nov-2015 06:24:17 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[02-Nov-2015 06:24:17 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[02-Nov-2015 06:24:17 UTC] PHP Stack trace:
+[02-Nov-2015 06:24:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[02-Nov-2015 06:24:17 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[02-Nov-2015 06:24:21 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[02-Nov-2015 06:24:21 UTC] PHP Stack trace:
+[02-Nov-2015 06:24:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[02-Nov-2015 06:24:21 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[02-Nov-2015 06:24:21 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[02-Nov-2015 06:24:21 UTC] PHP Stack trace:
+[02-Nov-2015 06:24:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[02-Nov-2015 06:24:21 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[02-Nov-2015 06:24:24 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[02-Nov-2015 06:24:24 UTC] PHP Stack trace:
+[02-Nov-2015 06:24:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[02-Nov-2015 06:24:24 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[02-Nov-2015 06:24:24 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[02-Nov-2015 06:24:24 UTC] PHP Stack trace:
+[02-Nov-2015 06:24:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[02-Nov-2015 06:24:24 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[02-Nov-2015 06:24:26 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[02-Nov-2015 06:24:26 UTC] PHP Stack trace:
+[02-Nov-2015 06:24:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[02-Nov-2015 06:24:26 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[02-Nov-2015 06:24:26 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[02-Nov-2015 06:24:26 UTC] PHP Stack trace:
+[02-Nov-2015 06:24:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[02-Nov-2015 06:24:26 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[02-Nov-2015 06:24:28 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[02-Nov-2015 06:24:28 UTC] PHP Stack trace:
+[02-Nov-2015 06:24:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[02-Nov-2015 06:24:28 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[02-Nov-2015 06:24:28 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[02-Nov-2015 06:24:28 UTC] PHP Stack trace:
+[02-Nov-2015 06:24:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[02-Nov-2015 06:24:28 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[04-Nov-2015 15:52:45 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[04-Nov-2015 15:52:45 UTC] PHP Stack trace:
+[04-Nov-2015 15:52:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[04-Nov-2015 15:52:45 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[04-Nov-2015 15:52:45 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[04-Nov-2015 15:52:45 UTC] PHP Stack trace:
+[04-Nov-2015 15:52:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[04-Nov-2015 15:52:45 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[04-Nov-2015 16:42:08 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[04-Nov-2015 16:42:08 UTC] PHP Stack trace:
+[04-Nov-2015 16:42:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[04-Nov-2015 16:42:08 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[04-Nov-2015 16:42:08 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[04-Nov-2015 16:42:08 UTC] PHP Stack trace:
+[04-Nov-2015 16:42:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[04-Nov-2015 16:42:08 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[04-Nov-2015 16:46:36 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[04-Nov-2015 16:46:36 UTC] PHP Stack trace:
+[04-Nov-2015 16:46:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[04-Nov-2015 16:46:36 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[04-Nov-2015 16:46:36 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[04-Nov-2015 16:46:36 UTC] PHP Stack trace:
+[04-Nov-2015 16:46:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[04-Nov-2015 16:46:36 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[04-Nov-2015 16:46:52 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[04-Nov-2015 16:46:52 UTC] PHP Stack trace:
+[04-Nov-2015 16:46:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[04-Nov-2015 16:46:52 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[04-Nov-2015 16:46:52 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[04-Nov-2015 16:46:52 UTC] PHP Stack trace:
+[04-Nov-2015 16:46:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[04-Nov-2015 16:46:52 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[04-Nov-2015 16:49:23 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[04-Nov-2015 16:49:23 UTC] PHP Stack trace:
+[04-Nov-2015 16:49:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[04-Nov-2015 16:49:23 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[04-Nov-2015 16:49:23 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[04-Nov-2015 16:49:23 UTC] PHP Stack trace:
+[04-Nov-2015 16:49:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[04-Nov-2015 16:49:23 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[04-Nov-2015 16:49:31 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[04-Nov-2015 16:49:31 UTC] PHP Stack trace:
+[04-Nov-2015 16:49:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[04-Nov-2015 16:49:31 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[04-Nov-2015 16:49:31 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[04-Nov-2015 16:49:31 UTC] PHP Stack trace:
+[04-Nov-2015 16:49:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[04-Nov-2015 16:49:31 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[04-Nov-2015 16:53:30 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[04-Nov-2015 16:53:30 UTC] PHP Stack trace:
+[04-Nov-2015 16:53:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[04-Nov-2015 16:53:30 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[04-Nov-2015 16:53:30 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[04-Nov-2015 16:53:30 UTC] PHP Stack trace:
+[04-Nov-2015 16:53:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[04-Nov-2015 16:53:30 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[04-Nov-2015 16:54:56 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[04-Nov-2015 16:54:56 UTC] PHP Stack trace:
+[04-Nov-2015 16:54:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[04-Nov-2015 16:54:56 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[04-Nov-2015 16:54:56 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[04-Nov-2015 16:54:56 UTC] PHP Stack trace:
+[04-Nov-2015 16:54:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[04-Nov-2015 16:54:56 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[04-Nov-2015 16:55:09 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[04-Nov-2015 16:55:09 UTC] PHP Stack trace:
+[04-Nov-2015 16:55:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[04-Nov-2015 16:55:09 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[04-Nov-2015 16:55:09 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[04-Nov-2015 16:55:09 UTC] PHP Stack trace:
+[04-Nov-2015 16:55:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[04-Nov-2015 16:55:09 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[04-Nov-2015 16:55:26 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[04-Nov-2015 16:55:26 UTC] PHP Stack trace:
+[04-Nov-2015 16:55:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[04-Nov-2015 16:55:26 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[04-Nov-2015 16:55:26 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[04-Nov-2015 16:55:26 UTC] PHP Stack trace:
+[04-Nov-2015 16:55:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[04-Nov-2015 16:55:26 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[04-Nov-2015 16:56:43 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[04-Nov-2015 16:56:43 UTC] PHP Stack trace:
+[04-Nov-2015 16:56:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[04-Nov-2015 16:56:43 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[04-Nov-2015 16:56:43 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[04-Nov-2015 16:56:43 UTC] PHP Stack trace:
+[04-Nov-2015 16:56:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[04-Nov-2015 16:56:43 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[04-Nov-2015 16:57:03 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[04-Nov-2015 16:57:03 UTC] PHP Stack trace:
+[04-Nov-2015 16:57:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[04-Nov-2015 16:57:03 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[04-Nov-2015 16:57:03 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[04-Nov-2015 16:57:03 UTC] PHP Stack trace:
+[04-Nov-2015 16:57:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[04-Nov-2015 16:57:03 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[04-Nov-2015 17:31:09 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[04-Nov-2015 17:31:09 UTC] PHP Stack trace:
+[04-Nov-2015 17:31:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[04-Nov-2015 17:31:09 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[04-Nov-2015 17:31:09 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[04-Nov-2015 17:31:09 UTC] PHP Stack trace:
+[04-Nov-2015 17:31:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[04-Nov-2015 17:31:09 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[04-Nov-2015 17:31:44 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[04-Nov-2015 17:31:44 UTC] PHP Stack trace:
+[04-Nov-2015 17:31:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[04-Nov-2015 17:31:44 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[04-Nov-2015 17:31:44 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[04-Nov-2015 17:31:44 UTC] PHP Stack trace:
+[04-Nov-2015 17:31:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[04-Nov-2015 17:31:44 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[04-Nov-2015 17:32:37 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[04-Nov-2015 17:32:37 UTC] PHP Stack trace:
+[04-Nov-2015 17:32:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[04-Nov-2015 17:32:37 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[04-Nov-2015 17:32:37 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[04-Nov-2015 17:32:37 UTC] PHP Stack trace:
+[04-Nov-2015 17:32:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[04-Nov-2015 17:32:37 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[04-Nov-2015 17:33:10 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[04-Nov-2015 17:33:10 UTC] PHP Stack trace:
+[04-Nov-2015 17:33:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[04-Nov-2015 17:33:10 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[04-Nov-2015 17:33:10 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[04-Nov-2015 17:33:10 UTC] PHP Stack trace:
+[04-Nov-2015 17:33:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[04-Nov-2015 17:33:10 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[04-Nov-2015 17:34:10 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[04-Nov-2015 17:34:10 UTC] PHP Stack trace:
+[04-Nov-2015 17:34:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[04-Nov-2015 17:34:10 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[04-Nov-2015 17:34:10 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[04-Nov-2015 17:34:10 UTC] PHP Stack trace:
+[04-Nov-2015 17:34:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[04-Nov-2015 17:34:10 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[04-Nov-2015 17:34:42 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[04-Nov-2015 17:34:42 UTC] PHP Stack trace:
+[04-Nov-2015 17:34:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[04-Nov-2015 17:34:42 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[04-Nov-2015 17:34:42 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[04-Nov-2015 17:34:42 UTC] PHP Stack trace:
+[04-Nov-2015 17:34:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[04-Nov-2015 17:34:42 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[04-Nov-2015 17:35:37 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[04-Nov-2015 17:35:37 UTC] PHP Stack trace:
+[04-Nov-2015 17:35:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[04-Nov-2015 17:35:37 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[04-Nov-2015 17:35:37 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[04-Nov-2015 17:35:37 UTC] PHP Stack trace:
+[04-Nov-2015 17:35:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[04-Nov-2015 17:35:37 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[04-Nov-2015 17:36:27 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[04-Nov-2015 17:36:27 UTC] PHP Stack trace:
+[04-Nov-2015 17:36:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[04-Nov-2015 17:36:27 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[04-Nov-2015 17:36:27 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[04-Nov-2015 17:36:27 UTC] PHP Stack trace:
+[04-Nov-2015 17:36:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[04-Nov-2015 17:36:27 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[04-Nov-2015 19:17:23 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[04-Nov-2015 19:17:23 UTC] PHP Stack trace:
+[04-Nov-2015 19:17:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[04-Nov-2015 19:17:23 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[04-Nov-2015 19:17:23 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[04-Nov-2015 19:17:23 UTC] PHP Stack trace:
+[04-Nov-2015 19:17:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[04-Nov-2015 19:17:23 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[04-Nov-2015 19:18:34 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[04-Nov-2015 19:18:34 UTC] PHP Stack trace:
+[04-Nov-2015 19:18:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[04-Nov-2015 19:18:34 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[04-Nov-2015 19:18:34 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[04-Nov-2015 19:18:34 UTC] PHP Stack trace:
+[04-Nov-2015 19:18:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[04-Nov-2015 19:18:34 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[04-Nov-2015 19:19:45 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[04-Nov-2015 19:19:45 UTC] PHP Stack trace:
+[04-Nov-2015 19:19:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[04-Nov-2015 19:19:45 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[04-Nov-2015 19:19:45 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[04-Nov-2015 19:19:45 UTC] PHP Stack trace:
+[04-Nov-2015 19:19:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[04-Nov-2015 19:19:45 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[04-Nov-2015 19:22:12 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[04-Nov-2015 19:22:12 UTC] PHP Stack trace:
+[04-Nov-2015 19:22:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[04-Nov-2015 19:22:12 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[04-Nov-2015 19:22:12 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[04-Nov-2015 19:22:12 UTC] PHP Stack trace:
+[04-Nov-2015 19:22:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[04-Nov-2015 19:22:12 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[04-Nov-2015 19:22:23 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[04-Nov-2015 19:22:23 UTC] PHP Stack trace:
+[04-Nov-2015 19:22:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[04-Nov-2015 19:22:23 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[04-Nov-2015 19:22:23 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[04-Nov-2015 19:22:23 UTC] PHP Stack trace:
+[04-Nov-2015 19:22:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[04-Nov-2015 19:22:23 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[04-Nov-2015 19:22:29 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[04-Nov-2015 19:22:29 UTC] PHP Stack trace:
+[04-Nov-2015 19:22:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[04-Nov-2015 19:22:29 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[04-Nov-2015 19:22:29 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[04-Nov-2015 19:22:29 UTC] PHP Stack trace:
+[04-Nov-2015 19:22:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[04-Nov-2015 19:22:29 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[04-Nov-2015 19:22:44 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[04-Nov-2015 19:22:44 UTC] PHP Stack trace:
+[04-Nov-2015 19:22:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[04-Nov-2015 19:22:44 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[04-Nov-2015 19:22:44 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[04-Nov-2015 19:22:44 UTC] PHP Stack trace:
+[04-Nov-2015 19:22:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[04-Nov-2015 19:22:44 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[04-Nov-2015 19:31:05 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[04-Nov-2015 19:31:05 UTC] PHP Stack trace:
+[04-Nov-2015 19:31:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[04-Nov-2015 19:31:05 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[04-Nov-2015 19:31:05 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[04-Nov-2015 19:31:05 UTC] PHP Stack trace:
+[04-Nov-2015 19:31:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[04-Nov-2015 19:31:05 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[04-Nov-2015 19:31:53 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[04-Nov-2015 19:31:53 UTC] PHP Stack trace:
+[04-Nov-2015 19:31:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[04-Nov-2015 19:31:53 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[04-Nov-2015 19:31:53 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[04-Nov-2015 19:31:53 UTC] PHP Stack trace:
+[04-Nov-2015 19:31:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[04-Nov-2015 19:31:53 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[04-Nov-2015 19:49:44 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[04-Nov-2015 19:49:44 UTC] PHP Stack trace:
+[04-Nov-2015 19:49:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[04-Nov-2015 19:49:44 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[04-Nov-2015 19:49:44 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[04-Nov-2015 19:49:44 UTC] PHP Stack trace:
+[04-Nov-2015 19:49:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[04-Nov-2015 19:49:44 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[04-Nov-2015 19:49:51 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[04-Nov-2015 19:49:51 UTC] PHP Stack trace:
+[04-Nov-2015 19:49:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[04-Nov-2015 19:49:51 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[04-Nov-2015 19:49:51 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[04-Nov-2015 19:49:51 UTC] PHP Stack trace:
+[04-Nov-2015 19:49:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[04-Nov-2015 19:49:51 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[04-Nov-2015 19:52:51 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[04-Nov-2015 19:52:51 UTC] PHP Stack trace:
+[04-Nov-2015 19:52:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[04-Nov-2015 19:52:51 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[04-Nov-2015 19:52:51 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[04-Nov-2015 19:52:51 UTC] PHP Stack trace:
+[04-Nov-2015 19:52:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[04-Nov-2015 19:52:51 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[04-Nov-2015 19:53:32 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[04-Nov-2015 19:53:32 UTC] PHP Stack trace:
+[04-Nov-2015 19:53:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[04-Nov-2015 19:53:32 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[04-Nov-2015 19:53:32 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[04-Nov-2015 19:53:32 UTC] PHP Stack trace:
+[04-Nov-2015 19:53:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[04-Nov-2015 19:53:32 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[04-Nov-2015 19:54:55 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[04-Nov-2015 19:54:55 UTC] PHP Stack trace:
+[04-Nov-2015 19:54:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[04-Nov-2015 19:54:55 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[04-Nov-2015 19:54:55 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[04-Nov-2015 19:54:55 UTC] PHP Stack trace:
+[04-Nov-2015 19:54:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[04-Nov-2015 19:54:55 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[04-Nov-2015 19:55:20 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[04-Nov-2015 19:55:20 UTC] PHP Stack trace:
+[04-Nov-2015 19:55:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[04-Nov-2015 19:55:20 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[04-Nov-2015 19:55:20 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[04-Nov-2015 19:55:20 UTC] PHP Stack trace:
+[04-Nov-2015 19:55:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[04-Nov-2015 19:55:20 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[04-Nov-2015 19:57:17 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[04-Nov-2015 19:57:17 UTC] PHP Stack trace:
+[04-Nov-2015 19:57:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[04-Nov-2015 19:57:17 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[04-Nov-2015 19:57:17 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[04-Nov-2015 19:57:17 UTC] PHP Stack trace:
+[04-Nov-2015 19:57:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[04-Nov-2015 19:57:17 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[04-Nov-2015 19:57:23 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[04-Nov-2015 19:57:23 UTC] PHP Stack trace:
+[04-Nov-2015 19:57:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[04-Nov-2015 19:57:23 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[04-Nov-2015 19:57:23 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[04-Nov-2015 19:57:23 UTC] PHP Stack trace:
+[04-Nov-2015 19:57:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[04-Nov-2015 19:57:23 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[04-Nov-2015 19:57:27 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[04-Nov-2015 19:57:27 UTC] PHP Stack trace:
+[04-Nov-2015 19:57:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[04-Nov-2015 19:57:27 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[04-Nov-2015 19:57:27 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[04-Nov-2015 19:57:27 UTC] PHP Stack trace:
+[04-Nov-2015 19:57:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[04-Nov-2015 19:57:27 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[04-Nov-2015 19:58:49 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[04-Nov-2015 19:58:49 UTC] PHP Stack trace:
+[04-Nov-2015 19:58:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[04-Nov-2015 19:58:49 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[04-Nov-2015 19:58:49 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[04-Nov-2015 19:58:49 UTC] PHP Stack trace:
+[04-Nov-2015 19:58:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[04-Nov-2015 19:58:49 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[04-Nov-2015 19:59:26 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[04-Nov-2015 19:59:26 UTC] PHP Stack trace:
+[04-Nov-2015 19:59:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[04-Nov-2015 19:59:26 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[04-Nov-2015 19:59:26 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[04-Nov-2015 19:59:26 UTC] PHP Stack trace:
+[04-Nov-2015 19:59:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[04-Nov-2015 19:59:26 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[04-Nov-2015 20:01:00 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[04-Nov-2015 20:01:00 UTC] PHP Stack trace:
+[04-Nov-2015 20:01:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[04-Nov-2015 20:01:00 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[04-Nov-2015 20:01:00 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[04-Nov-2015 20:01:00 UTC] PHP Stack trace:
+[04-Nov-2015 20:01:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[04-Nov-2015 20:01:00 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[04-Nov-2015 20:03:41 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[04-Nov-2015 20:03:41 UTC] PHP Stack trace:
+[04-Nov-2015 20:03:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[04-Nov-2015 20:03:41 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[04-Nov-2015 20:03:41 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[04-Nov-2015 20:03:41 UTC] PHP Stack trace:
+[04-Nov-2015 20:03:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[04-Nov-2015 20:03:41 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[04-Nov-2015 20:03:45 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[04-Nov-2015 20:03:45 UTC] PHP Stack trace:
+[04-Nov-2015 20:03:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[04-Nov-2015 20:03:45 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[04-Nov-2015 20:03:45 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[04-Nov-2015 20:03:45 UTC] PHP Stack trace:
+[04-Nov-2015 20:03:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[04-Nov-2015 20:03:45 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[04-Nov-2015 20:03:52 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[04-Nov-2015 20:03:52 UTC] PHP Stack trace:
+[04-Nov-2015 20:03:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[04-Nov-2015 20:03:52 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[04-Nov-2015 20:03:52 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[04-Nov-2015 20:03:52 UTC] PHP Stack trace:
+[04-Nov-2015 20:03:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[04-Nov-2015 20:03:52 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[04-Nov-2015 20:04:05 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[04-Nov-2015 20:04:05 UTC] PHP Stack trace:
+[04-Nov-2015 20:04:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[04-Nov-2015 20:04:05 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[04-Nov-2015 20:04:05 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[04-Nov-2015 20:04:05 UTC] PHP Stack trace:
+[04-Nov-2015 20:04:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[04-Nov-2015 20:04:05 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[04-Nov-2015 20:04:22 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[04-Nov-2015 20:04:22 UTC] PHP Stack trace:
+[04-Nov-2015 20:04:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[04-Nov-2015 20:04:22 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[04-Nov-2015 20:04:22 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[04-Nov-2015 20:04:22 UTC] PHP Stack trace:
+[04-Nov-2015 20:04:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[04-Nov-2015 20:04:22 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[04-Nov-2015 20:04:32 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[04-Nov-2015 20:04:32 UTC] PHP Stack trace:
+[04-Nov-2015 20:04:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[04-Nov-2015 20:04:32 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[04-Nov-2015 20:04:32 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[04-Nov-2015 20:04:32 UTC] PHP Stack trace:
+[04-Nov-2015 20:04:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[04-Nov-2015 20:04:32 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[04-Nov-2015 20:04:33 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[04-Nov-2015 20:04:33 UTC] PHP Stack trace:
+[04-Nov-2015 20:04:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[04-Nov-2015 20:04:33 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[04-Nov-2015 20:04:33 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[04-Nov-2015 20:04:33 UTC] PHP Stack trace:
+[04-Nov-2015 20:04:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[04-Nov-2015 20:04:33 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[04-Nov-2015 20:04:35 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[04-Nov-2015 20:04:35 UTC] PHP Stack trace:
+[04-Nov-2015 20:04:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[04-Nov-2015 20:04:35 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[04-Nov-2015 20:04:35 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[04-Nov-2015 20:04:35 UTC] PHP Stack trace:
+[04-Nov-2015 20:04:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[04-Nov-2015 20:04:35 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[04-Nov-2015 20:04:36 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[04-Nov-2015 20:04:36 UTC] PHP Stack trace:
+[04-Nov-2015 20:04:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[04-Nov-2015 20:04:36 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[04-Nov-2015 20:04:36 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[04-Nov-2015 20:04:36 UTC] PHP Stack trace:
+[04-Nov-2015 20:04:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[04-Nov-2015 20:04:36 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[04-Nov-2015 20:05:10 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[04-Nov-2015 20:05:10 UTC] PHP Stack trace:
+[04-Nov-2015 20:05:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[04-Nov-2015 20:05:10 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[04-Nov-2015 20:05:10 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[04-Nov-2015 20:05:10 UTC] PHP Stack trace:
+[04-Nov-2015 20:05:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[04-Nov-2015 20:05:10 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[04-Nov-2015 20:05:14 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[04-Nov-2015 20:05:14 UTC] PHP Stack trace:
+[04-Nov-2015 20:05:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[04-Nov-2015 20:05:14 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[04-Nov-2015 20:05:14 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[04-Nov-2015 20:05:14 UTC] PHP Stack trace:
+[04-Nov-2015 20:05:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[04-Nov-2015 20:05:14 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[04-Nov-2015 20:05:20 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[04-Nov-2015 20:05:20 UTC] PHP Stack trace:
+[04-Nov-2015 20:05:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[04-Nov-2015 20:05:20 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[04-Nov-2015 20:05:20 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[04-Nov-2015 20:05:20 UTC] PHP Stack trace:
+[04-Nov-2015 20:05:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[04-Nov-2015 20:05:20 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[04-Nov-2015 20:07:36 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[04-Nov-2015 20:07:36 UTC] PHP Stack trace:
+[04-Nov-2015 20:07:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[04-Nov-2015 20:07:36 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[04-Nov-2015 20:07:36 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[04-Nov-2015 20:07:36 UTC] PHP Stack trace:
+[04-Nov-2015 20:07:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[04-Nov-2015 20:07:36 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[04-Nov-2015 20:07:39 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[04-Nov-2015 20:07:39 UTC] PHP Stack trace:
+[04-Nov-2015 20:07:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[04-Nov-2015 20:07:39 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[04-Nov-2015 20:07:39 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[04-Nov-2015 20:07:39 UTC] PHP Stack trace:
+[04-Nov-2015 20:07:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[04-Nov-2015 20:07:39 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[04-Nov-2015 20:08:29 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[04-Nov-2015 20:08:29 UTC] PHP Stack trace:
+[04-Nov-2015 20:08:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[04-Nov-2015 20:08:29 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[04-Nov-2015 20:08:29 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[04-Nov-2015 20:08:29 UTC] PHP Stack trace:
+[04-Nov-2015 20:08:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[04-Nov-2015 20:08:29 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[04-Nov-2015 20:08:35 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[04-Nov-2015 20:08:35 UTC] PHP Stack trace:
+[04-Nov-2015 20:08:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[04-Nov-2015 20:08:35 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[04-Nov-2015 20:08:35 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[04-Nov-2015 20:08:35 UTC] PHP Stack trace:
+[04-Nov-2015 20:08:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[04-Nov-2015 20:08:35 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[05-Nov-2015 00:19:04 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[05-Nov-2015 00:19:04 UTC] PHP Stack trace:
+[05-Nov-2015 00:19:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[05-Nov-2015 00:19:04 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[05-Nov-2015 00:19:04 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[05-Nov-2015 00:19:04 UTC] PHP Stack trace:
+[05-Nov-2015 00:19:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[05-Nov-2015 00:19:04 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[05-Nov-2015 00:19:34 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[05-Nov-2015 00:19:34 UTC] PHP Stack trace:
+[05-Nov-2015 00:19:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[05-Nov-2015 00:19:34 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[05-Nov-2015 00:19:34 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[05-Nov-2015 00:19:34 UTC] PHP Stack trace:
+[05-Nov-2015 00:19:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[05-Nov-2015 00:19:34 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[05-Nov-2015 00:19:40 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[05-Nov-2015 00:19:40 UTC] PHP Stack trace:
+[05-Nov-2015 00:19:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[05-Nov-2015 00:19:40 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[05-Nov-2015 00:19:40 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[05-Nov-2015 00:19:40 UTC] PHP Stack trace:
+[05-Nov-2015 00:19:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[05-Nov-2015 00:19:40 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[05-Nov-2015 00:19:57 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[05-Nov-2015 00:19:57 UTC] PHP Stack trace:
+[05-Nov-2015 00:19:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[05-Nov-2015 00:19:57 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[05-Nov-2015 00:19:57 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[05-Nov-2015 00:19:57 UTC] PHP Stack trace:
+[05-Nov-2015 00:19:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[05-Nov-2015 00:19:57 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[05-Nov-2015 00:47:58 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[05-Nov-2015 00:47:58 UTC] PHP Stack trace:
+[05-Nov-2015 00:47:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[05-Nov-2015 00:47:58 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[05-Nov-2015 00:47:58 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[05-Nov-2015 00:47:58 UTC] PHP Stack trace:
+[05-Nov-2015 00:47:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[05-Nov-2015 00:47:58 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[05-Nov-2015 00:48:10 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[05-Nov-2015 00:48:10 UTC] PHP Stack trace:
+[05-Nov-2015 00:48:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[05-Nov-2015 00:48:10 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[05-Nov-2015 00:48:10 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[05-Nov-2015 00:48:10 UTC] PHP Stack trace:
+[05-Nov-2015 00:48:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[05-Nov-2015 00:48:10 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[05-Nov-2015 00:51:10 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[05-Nov-2015 00:51:10 UTC] PHP Stack trace:
+[05-Nov-2015 00:51:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[05-Nov-2015 00:51:10 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[05-Nov-2015 00:51:10 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[05-Nov-2015 00:51:10 UTC] PHP Stack trace:
+[05-Nov-2015 00:51:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[05-Nov-2015 00:51:10 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[05-Nov-2015 00:51:41 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[05-Nov-2015 00:51:41 UTC] PHP Stack trace:
+[05-Nov-2015 00:51:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[05-Nov-2015 00:51:41 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[05-Nov-2015 00:51:41 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[05-Nov-2015 00:51:41 UTC] PHP Stack trace:
+[05-Nov-2015 00:51:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[05-Nov-2015 00:51:41 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[05-Nov-2015 02:14:18 UTC] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/project/handler.php on line 33
+[05-Nov-2015 02:14:18 UTC] PHP Stack trace:
+[05-Nov-2015 02:14:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/project/handler.php:0
+[05-Nov-2015 02:14:18 UTC] PHP   2. findCarMakes() /home/ubuntu/workspace/project/handler.php:8
+[05-Nov-2015 02:14:18 UTC] PHP   3. mysqli_fetch_all() /home/ubuntu/workspace/project/handler.php:33
+[05-Nov-2015 02:14:31 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/project/handler.php on line 81
+[05-Nov-2015 02:14:31 UTC] PHP Stack trace:
+[05-Nov-2015 02:14:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/project/handler.php:0
+[05-Nov-2015 02:14:31 UTC] PHP   2. save() /home/ubuntu/workspace/project/handler.php:17
+[05-Nov-2015 02:14:31 UTC] PHP   3. mysqli_fetch_assoc() /home/ubuntu/workspace/project/handler.php:81
+[05-Nov-2015 02:14:38 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/project/handler.php on line 81
+[05-Nov-2015 02:14:38 UTC] PHP Stack trace:
+[05-Nov-2015 02:14:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/project/handler.php:0
+[05-Nov-2015 02:14:38 UTC] PHP   2. save() /home/ubuntu/workspace/project/handler.php:17
+[05-Nov-2015 02:14:38 UTC] PHP   3. mysqli_fetch_assoc() /home/ubuntu/workspace/project/handler.php:81
+[05-Nov-2015 02:15:21 UTC] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/project/handler.php on line 33
+[05-Nov-2015 02:15:21 UTC] PHP Stack trace:
+[05-Nov-2015 02:15:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/project/handler.php:0
+[05-Nov-2015 02:15:21 UTC] PHP   2. findCarMakes() /home/ubuntu/workspace/project/handler.php:8
+[05-Nov-2015 02:15:21 UTC] PHP   3. mysqli_fetch_all() /home/ubuntu/workspace/project/handler.php:33
+[05-Nov-2015 02:15:28 UTC] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/project/handler.php on line 33
+[05-Nov-2015 02:15:28 UTC] PHP Stack trace:
+[05-Nov-2015 02:15:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/project/handler.php:0
+[05-Nov-2015 02:15:28 UTC] PHP   2. findCarMakes() /home/ubuntu/workspace/project/handler.php:8
+[05-Nov-2015 02:15:28 UTC] PHP   3. mysqli_fetch_all() /home/ubuntu/workspace/project/handler.php:33
+[05-Nov-2015 02:16:04 UTC] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/project/handler.php on line 33
+[05-Nov-2015 02:16:04 UTC] PHP Stack trace:
+[05-Nov-2015 02:16:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/project/handler.php:0
+[05-Nov-2015 02:16:04 UTC] PHP   2. findCarMakes() /home/ubuntu/workspace/project/handler.php:8
+[05-Nov-2015 02:16:04 UTC] PHP   3. mysqli_fetch_all() /home/ubuntu/workspace/project/handler.php:33
+[05-Nov-2015 02:16:21 UTC] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/project/handler.php on line 33
+[05-Nov-2015 02:16:21 UTC] PHP Stack trace:
+[05-Nov-2015 02:16:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/project/handler.php:0
+[05-Nov-2015 02:16:21 UTC] PHP   2. findCarMakes() /home/ubuntu/workspace/project/handler.php:8
+[05-Nov-2015 02:16:21 UTC] PHP   3. mysqli_fetch_all() /home/ubuntu/workspace/project/handler.php:33
+[05-Nov-2015 02:18:07 UTC] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/project/handler.php on line 33
+[05-Nov-2015 02:18:07 UTC] PHP Stack trace:
+[05-Nov-2015 02:18:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/project/handler.php:0
+[05-Nov-2015 02:18:07 UTC] PHP   2. findCarMakes() /home/ubuntu/workspace/project/handler.php:8
+[05-Nov-2015 02:18:07 UTC] PHP   3. mysqli_fetch_all() /home/ubuntu/workspace/project/handler.php:33
+[05-Nov-2015 02:18:32 UTC] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/project/handler.php on line 33
+[05-Nov-2015 02:18:32 UTC] PHP Stack trace:
+[05-Nov-2015 02:18:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/project/handler.php:0
+[05-Nov-2015 02:18:32 UTC] PHP   2. findCarMakes() /home/ubuntu/workspace/project/handler.php:8
+[05-Nov-2015 02:18:32 UTC] PHP   3. mysqli_fetch_all() /home/ubuntu/workspace/project/handler.php:33
+[05-Nov-2015 02:18:39 UTC] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/project/handler.php on line 33
+[05-Nov-2015 02:18:39 UTC] PHP Stack trace:
+[05-Nov-2015 02:18:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/project/handler.php:0
+[05-Nov-2015 02:18:39 UTC] PHP   2. findCarMakes() /home/ubuntu/workspace/project/handler.php:8
+[05-Nov-2015 02:18:39 UTC] PHP   3. mysqli_fetch_all() /home/ubuntu/workspace/project/handler.php:33
+[05-Nov-2015 02:18:41 UTC] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/project/handler.php on line 33
+[05-Nov-2015 02:18:41 UTC] PHP Stack trace:
+[05-Nov-2015 02:18:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/project/handler.php:0
+[05-Nov-2015 02:18:41 UTC] PHP   2. findCarMakes() /home/ubuntu/workspace/project/handler.php:8
+[05-Nov-2015 02:18:41 UTC] PHP   3. mysqli_fetch_all() /home/ubuntu/workspace/project/handler.php:33
+[05-Nov-2015 02:18:43 UTC] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/project/handler.php on line 33
+[05-Nov-2015 02:18:43 UTC] PHP Stack trace:
+[05-Nov-2015 02:18:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/project/handler.php:0
+[05-Nov-2015 02:18:43 UTC] PHP   2. findCarMakes() /home/ubuntu/workspace/project/handler.php:8
+[05-Nov-2015 02:18:43 UTC] PHP   3. mysqli_fetch_all() /home/ubuntu/workspace/project/handler.php:33
+[05-Nov-2015 02:19:03 UTC] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/project/handler.php on line 33
+[05-Nov-2015 02:19:03 UTC] PHP Stack trace:
+[05-Nov-2015 02:19:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/project/handler.php:0
+[05-Nov-2015 02:19:03 UTC] PHP   2. findCarMakes() /home/ubuntu/workspace/project/handler.php:8
+[05-Nov-2015 02:19:03 UTC] PHP   3. mysqli_fetch_all() /home/ubuntu/workspace/project/handler.php:33
+[05-Nov-2015 02:19:26 UTC] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/project/handler.php on line 33
+[05-Nov-2015 02:19:26 UTC] PHP Stack trace:
+[05-Nov-2015 02:19:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/project/handler.php:0
+[05-Nov-2015 02:19:26 UTC] PHP   2. findCarMakes() /home/ubuntu/workspace/project/handler.php:8
+[05-Nov-2015 02:19:26 UTC] PHP   3. mysqli_fetch_all() /home/ubuntu/workspace/project/handler.php:33
+[05-Nov-2015 02:19:39 UTC] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/project/handler.php on line 33
+[05-Nov-2015 02:19:39 UTC] PHP Stack trace:
+[05-Nov-2015 02:19:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/project/handler.php:0
+[05-Nov-2015 02:19:39 UTC] PHP   2. findCarMakes() /home/ubuntu/workspace/project/handler.php:8
+[05-Nov-2015 02:19:39 UTC] PHP   3. mysqli_fetch_all() /home/ubuntu/workspace/project/handler.php:33
+[05-Nov-2015 02:19:41 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/project/handler.php on line 81
+[05-Nov-2015 02:19:41 UTC] PHP Stack trace:
+[05-Nov-2015 02:19:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/project/handler.php:0
+[05-Nov-2015 02:19:41 UTC] PHP   2. save() /home/ubuntu/workspace/project/handler.php:17
+[05-Nov-2015 02:19:41 UTC] PHP   3. mysqli_fetch_assoc() /home/ubuntu/workspace/project/handler.php:81
+[05-Nov-2015 02:19:42 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/project/handler.php on line 81
+[05-Nov-2015 02:19:42 UTC] PHP Stack trace:
+[05-Nov-2015 02:19:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/project/handler.php:0
+[05-Nov-2015 02:19:42 UTC] PHP   2. save() /home/ubuntu/workspace/project/handler.php:17
+[05-Nov-2015 02:19:42 UTC] PHP   3. mysqli_fetch_assoc() /home/ubuntu/workspace/project/handler.php:81
+[05-Nov-2015 02:19:43 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/project/handler.php on line 81
+[05-Nov-2015 02:19:43 UTC] PHP Stack trace:
+[05-Nov-2015 02:19:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/project/handler.php:0
+[05-Nov-2015 02:19:43 UTC] PHP   2. save() /home/ubuntu/workspace/project/handler.php:17
+[05-Nov-2015 02:19:43 UTC] PHP   3. mysqli_fetch_assoc() /home/ubuntu/workspace/project/handler.php:81
+[05-Nov-2015 02:19:45 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/project/handler.php on line 81
+[05-Nov-2015 02:19:45 UTC] PHP Stack trace:
+[05-Nov-2015 02:19:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/project/handler.php:0
+[05-Nov-2015 02:19:45 UTC] PHP   2. save() /home/ubuntu/workspace/project/handler.php:17
+[05-Nov-2015 02:19:45 UTC] PHP   3. mysqli_fetch_assoc() /home/ubuntu/workspace/project/handler.php:81
+[05-Nov-2015 02:19:49 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/project/handler.php on line 81
+[05-Nov-2015 02:19:49 UTC] PHP Stack trace:
+[05-Nov-2015 02:19:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/project/handler.php:0
+[05-Nov-2015 02:19:49 UTC] PHP   2. save() /home/ubuntu/workspace/project/handler.php:17
+[05-Nov-2015 02:19:49 UTC] PHP   3. mysqli_fetch_assoc() /home/ubuntu/workspace/project/handler.php:81
+[05-Nov-2015 02:22:12 UTC] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/project/handler.php on line 33
+[05-Nov-2015 02:22:12 UTC] PHP Stack trace:
+[05-Nov-2015 02:22:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/project/handler.php:0
+[05-Nov-2015 02:22:12 UTC] PHP   2. findCarMakes() /home/ubuntu/workspace/project/handler.php:8
+[05-Nov-2015 02:22:12 UTC] PHP   3. mysqli_fetch_all() /home/ubuntu/workspace/project/handler.php:33
+[05-Nov-2015 02:22:34 UTC] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/project/handler.php on line 33
+[05-Nov-2015 02:22:34 UTC] PHP Stack trace:
+[05-Nov-2015 02:22:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/project/handler.php:0
+[05-Nov-2015 02:22:34 UTC] PHP   2. findCarMakes() /home/ubuntu/workspace/project/handler.php:8
+[05-Nov-2015 02:22:34 UTC] PHP   3. mysqli_fetch_all() /home/ubuntu/workspace/project/handler.php:33
+[05-Nov-2015 02:23:31 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/project/handler.php on line 81
+[05-Nov-2015 02:23:31 UTC] PHP Stack trace:
+[05-Nov-2015 02:23:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/project/handler.php:0
+[05-Nov-2015 02:23:31 UTC] PHP   2. save() /home/ubuntu/workspace/project/handler.php:17
+[05-Nov-2015 02:23:31 UTC] PHP   3. mysqli_fetch_assoc() /home/ubuntu/workspace/project/handler.php:81
+[05-Nov-2015 02:23:32 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/project/handler.php on line 81
+[05-Nov-2015 02:23:32 UTC] PHP Stack trace:
+[05-Nov-2015 02:23:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/project/handler.php:0
+[05-Nov-2015 02:23:32 UTC] PHP   2. save() /home/ubuntu/workspace/project/handler.php:17
+[05-Nov-2015 02:23:32 UTC] PHP   3. mysqli_fetch_assoc() /home/ubuntu/workspace/project/handler.php:81
+[05-Nov-2015 02:23:33 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/project/handler.php on line 81
+[05-Nov-2015 02:23:33 UTC] PHP Stack trace:
+[05-Nov-2015 02:23:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/project/handler.php:0
+[05-Nov-2015 02:23:33 UTC] PHP   2. save() /home/ubuntu/workspace/project/handler.php:17
+[05-Nov-2015 02:23:33 UTC] PHP   3. mysqli_fetch_assoc() /home/ubuntu/workspace/project/handler.php:81
+[05-Nov-2015 02:23:34 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/project/handler.php on line 81
+[05-Nov-2015 02:23:34 UTC] PHP Stack trace:
+[05-Nov-2015 02:23:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/project/handler.php:0
+[05-Nov-2015 02:23:34 UTC] PHP   2. save() /home/ubuntu/workspace/project/handler.php:17
+[05-Nov-2015 02:23:34 UTC] PHP   3. mysqli_fetch_assoc() /home/ubuntu/workspace/project/handler.php:81
+[05-Nov-2015 02:24:16 UTC] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/project/handler.php on line 33
+[05-Nov-2015 02:24:16 UTC] PHP Stack trace:
+[05-Nov-2015 02:24:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/project/handler.php:0
+[05-Nov-2015 02:24:16 UTC] PHP   2. findCarMakes() /home/ubuntu/workspace/project/handler.php:8
+[05-Nov-2015 02:24:16 UTC] PHP   3. mysqli_fetch_all() /home/ubuntu/workspace/project/handler.php:33
+[05-Nov-2015 02:28:41 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[05-Nov-2015 02:28:41 UTC] PHP Stack trace:
+[05-Nov-2015 02:28:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[05-Nov-2015 02:28:41 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[05-Nov-2015 02:28:41 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[05-Nov-2015 02:28:41 UTC] PHP Stack trace:
+[05-Nov-2015 02:28:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[05-Nov-2015 02:28:41 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[05-Nov-2015 02:31:49 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[05-Nov-2015 02:31:49 UTC] PHP Stack trace:
+[05-Nov-2015 02:31:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[05-Nov-2015 02:31:49 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[05-Nov-2015 02:31:49 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[05-Nov-2015 02:31:49 UTC] PHP Stack trace:
+[05-Nov-2015 02:31:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[05-Nov-2015 02:31:49 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[05-Nov-2015 02:32:33 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[05-Nov-2015 02:32:33 UTC] PHP Stack trace:
+[05-Nov-2015 02:32:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[05-Nov-2015 02:32:33 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[05-Nov-2015 02:32:33 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[05-Nov-2015 02:32:33 UTC] PHP Stack trace:
+[05-Nov-2015 02:32:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[05-Nov-2015 02:32:33 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[05-Nov-2015 02:44:06 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[05-Nov-2015 02:44:06 UTC] PHP Stack trace:
+[05-Nov-2015 02:44:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[05-Nov-2015 02:44:06 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[05-Nov-2015 02:44:06 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[05-Nov-2015 02:44:06 UTC] PHP Stack trace:
+[05-Nov-2015 02:44:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[05-Nov-2015 02:44:06 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[05-Nov-2015 02:44:42 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[05-Nov-2015 02:44:43 UTC] PHP Stack trace:
+[05-Nov-2015 02:44:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[05-Nov-2015 02:44:43 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[05-Nov-2015 02:44:43 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[05-Nov-2015 02:44:43 UTC] PHP Stack trace:
+[05-Nov-2015 02:44:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[05-Nov-2015 02:44:43 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[05-Nov-2015 03:00:31 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[05-Nov-2015 03:00:31 UTC] PHP Stack trace:
+[05-Nov-2015 03:00:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[05-Nov-2015 03:00:31 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[05-Nov-2015 03:00:31 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[05-Nov-2015 03:00:31 UTC] PHP Stack trace:
+[05-Nov-2015 03:00:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[05-Nov-2015 03:00:31 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[05-Nov-2015 03:00:53 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[05-Nov-2015 03:00:53 UTC] PHP Stack trace:
+[05-Nov-2015 03:00:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[05-Nov-2015 03:00:53 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[05-Nov-2015 03:00:53 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[05-Nov-2015 03:00:53 UTC] PHP Stack trace:
+[05-Nov-2015 03:00:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[05-Nov-2015 03:00:53 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[05-Nov-2015 03:01:06 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[05-Nov-2015 03:01:06 UTC] PHP Stack trace:
+[05-Nov-2015 03:01:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[05-Nov-2015 03:01:06 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[05-Nov-2015 03:01:06 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[05-Nov-2015 03:01:06 UTC] PHP Stack trace:
+[05-Nov-2015 03:01:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[05-Nov-2015 03:01:06 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[05-Nov-2015 03:01:24 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[05-Nov-2015 03:01:24 UTC] PHP Stack trace:
+[05-Nov-2015 03:01:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[05-Nov-2015 03:01:24 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[05-Nov-2015 03:01:24 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[05-Nov-2015 03:01:24 UTC] PHP Stack trace:
+[05-Nov-2015 03:01:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[05-Nov-2015 03:01:24 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[05-Nov-2015 03:03:47 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[05-Nov-2015 03:03:47 UTC] PHP Stack trace:
+[05-Nov-2015 03:03:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[05-Nov-2015 03:03:47 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[05-Nov-2015 03:03:47 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[05-Nov-2015 03:03:47 UTC] PHP Stack trace:
+[05-Nov-2015 03:03:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[05-Nov-2015 03:03:47 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[05-Nov-2015 03:03:56 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[05-Nov-2015 03:03:56 UTC] PHP Stack trace:
+[05-Nov-2015 03:03:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[05-Nov-2015 03:03:56 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[05-Nov-2015 03:03:56 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[05-Nov-2015 03:03:56 UTC] PHP Stack trace:
+[05-Nov-2015 03:03:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[05-Nov-2015 03:03:56 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[05-Nov-2015 03:04:10 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[05-Nov-2015 03:04:10 UTC] PHP Stack trace:
+[05-Nov-2015 03:04:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[05-Nov-2015 03:04:10 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[05-Nov-2015 03:04:10 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[05-Nov-2015 03:04:10 UTC] PHP Stack trace:
+[05-Nov-2015 03:04:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[05-Nov-2015 03:04:10 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[05-Nov-2015 03:04:13 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[05-Nov-2015 03:04:13 UTC] PHP Stack trace:
+[05-Nov-2015 03:04:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[05-Nov-2015 03:04:13 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[05-Nov-2015 03:04:13 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[05-Nov-2015 03:04:13 UTC] PHP Stack trace:
+[05-Nov-2015 03:04:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[05-Nov-2015 03:04:13 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[05-Nov-2015 03:06:18 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[05-Nov-2015 03:06:18 UTC] PHP Stack trace:
+[05-Nov-2015 03:06:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[05-Nov-2015 03:06:18 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[05-Nov-2015 03:06:18 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[05-Nov-2015 03:06:18 UTC] PHP Stack trace:
+[05-Nov-2015 03:06:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[05-Nov-2015 03:06:18 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[05-Nov-2015 03:06:35 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[05-Nov-2015 03:06:35 UTC] PHP Stack trace:
+[05-Nov-2015 03:06:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[05-Nov-2015 03:06:35 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[05-Nov-2015 03:06:35 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[05-Nov-2015 03:06:35 UTC] PHP Stack trace:
+[05-Nov-2015 03:06:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[05-Nov-2015 03:06:35 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[05-Nov-2015 03:06:37 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[05-Nov-2015 03:06:37 UTC] PHP Stack trace:
+[05-Nov-2015 03:06:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[05-Nov-2015 03:06:37 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[05-Nov-2015 03:06:37 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[05-Nov-2015 03:06:37 UTC] PHP Stack trace:
+[05-Nov-2015 03:06:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[05-Nov-2015 03:06:37 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[05-Nov-2015 03:06:39 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[05-Nov-2015 03:06:39 UTC] PHP Stack trace:
+[05-Nov-2015 03:06:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[05-Nov-2015 03:06:39 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[05-Nov-2015 03:06:39 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[05-Nov-2015 03:06:39 UTC] PHP Stack trace:
+[05-Nov-2015 03:06:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[05-Nov-2015 03:06:39 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[05-Nov-2015 03:06:46 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[05-Nov-2015 03:06:46 UTC] PHP Stack trace:
+[05-Nov-2015 03:06:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[05-Nov-2015 03:06:46 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[05-Nov-2015 03:06:46 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[05-Nov-2015 03:06:46 UTC] PHP Stack trace:
+[05-Nov-2015 03:06:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[05-Nov-2015 03:06:46 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[05-Nov-2015 03:06:54 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[05-Nov-2015 03:06:54 UTC] PHP Stack trace:
+[05-Nov-2015 03:06:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[05-Nov-2015 03:06:54 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[05-Nov-2015 03:06:54 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[05-Nov-2015 03:06:54 UTC] PHP Stack trace:
+[05-Nov-2015 03:06:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[05-Nov-2015 03:06:54 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[05-Nov-2015 03:58:29 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[05-Nov-2015 03:58:29 UTC] PHP Stack trace:
+[05-Nov-2015 03:58:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[05-Nov-2015 03:58:29 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[05-Nov-2015 03:58:29 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[05-Nov-2015 03:58:29 UTC] PHP Stack trace:
+[05-Nov-2015 03:58:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[05-Nov-2015 03:58:29 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[05-Nov-2015 03:58:33 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[05-Nov-2015 03:58:33 UTC] PHP Stack trace:
+[05-Nov-2015 03:58:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[05-Nov-2015 03:58:33 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[05-Nov-2015 03:58:33 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[05-Nov-2015 03:58:33 UTC] PHP Stack trace:
+[05-Nov-2015 03:58:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[05-Nov-2015 03:58:33 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[05-Nov-2015 03:58:58 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[05-Nov-2015 03:58:58 UTC] PHP Stack trace:
+[05-Nov-2015 03:58:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[05-Nov-2015 03:58:58 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[05-Nov-2015 03:58:58 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[05-Nov-2015 03:58:58 UTC] PHP Stack trace:
+[05-Nov-2015 03:58:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[05-Nov-2015 03:58:58 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[05-Nov-2015 03:59:09 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[05-Nov-2015 03:59:09 UTC] PHP Stack trace:
+[05-Nov-2015 03:59:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[05-Nov-2015 03:59:09 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[05-Nov-2015 03:59:09 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[05-Nov-2015 03:59:09 UTC] PHP Stack trace:
+[05-Nov-2015 03:59:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[05-Nov-2015 03:59:09 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[05-Nov-2015 03:59:56 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[05-Nov-2015 03:59:56 UTC] PHP Stack trace:
+[05-Nov-2015 03:59:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[05-Nov-2015 03:59:56 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[05-Nov-2015 03:59:56 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/assignment3/handler.php on line 73
+[05-Nov-2015 03:59:56 UTC] PHP Stack trace:
+[05-Nov-2015 03:59:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[05-Nov-2015 03:59:56 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/assignment3/handler.php:73
+[19-Nov-2015 03:54:54 UTC] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/assignment3/handler.php on line 63
+[19-Nov-2015 03:54:55 UTC] PHP Stack trace:
+[19-Nov-2015 03:54:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[19-Nov-2015 03:54:55 UTC] PHP   2. findCarEngines() /home/ubuntu/workspace/assignment3/handler.php:14
+[19-Nov-2015 03:54:55 UTC] PHP   3. mysqli_fetch_all() /home/ubuntu/workspace/assignment3/handler.php:63
+[19-Nov-2015 03:54:54 UTC] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/assignment3/handler.php on line 49
+[19-Nov-2015 03:54:55 UTC] PHP Stack trace:
+[19-Nov-2015 03:54:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[19-Nov-2015 03:54:55 UTC] PHP   2. findCarModels() /home/ubuntu/workspace/assignment3/handler.php:11
+[19-Nov-2015 03:54:55 UTC] PHP   3. mysqli_fetch_all() /home/ubuntu/workspace/assignment3/handler.php:49
+[19-Nov-2015 03:55:04 UTC] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/assignment3/handler.php on line 49
+[19-Nov-2015 03:55:04 UTC] PHP Stack trace:
+[19-Nov-2015 03:55:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[19-Nov-2015 03:55:04 UTC] PHP   2. findCarModels() /home/ubuntu/workspace/assignment3/handler.php:11
+[19-Nov-2015 03:55:04 UTC] PHP   3. mysqli_fetch_all() /home/ubuntu/workspace/assignment3/handler.php:49
+[19-Nov-2015 03:55:04 UTC] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/assignment3/handler.php on line 63
+[19-Nov-2015 03:55:04 UTC] PHP Stack trace:
+[19-Nov-2015 03:55:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[19-Nov-2015 03:55:04 UTC] PHP   2. findCarEngines() /home/ubuntu/workspace/assignment3/handler.php:14
+[19-Nov-2015 03:55:04 UTC] PHP   3. mysqli_fetch_all() /home/ubuntu/workspace/assignment3/handler.php:63
+[19-Nov-2015 03:55:07 UTC] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/assignment3/handler.php on line 63
+[19-Nov-2015 03:55:07 UTC] PHP Stack trace:
+[19-Nov-2015 03:55:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[19-Nov-2015 03:55:07 UTC] PHP   2. findCarEngines() /home/ubuntu/workspace/assignment3/handler.php:14
+[19-Nov-2015 03:55:07 UTC] PHP   3. mysqli_fetch_all() /home/ubuntu/workspace/assignment3/handler.php:63
+[19-Nov-2015 03:55:07 UTC] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/assignment3/handler.php on line 49
+[19-Nov-2015 03:55:07 UTC] PHP Stack trace:
+[19-Nov-2015 03:55:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[19-Nov-2015 03:55:07 UTC] PHP   2. findCarModels() /home/ubuntu/workspace/assignment3/handler.php:11
+[19-Nov-2015 03:55:07 UTC] PHP   3. mysqli_fetch_all() /home/ubuntu/workspace/assignment3/handler.php:49
+[19-Nov-2015 03:55:09 UTC] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/assignment3/handler.php on line 49
+[19-Nov-2015 03:55:09 UTC] PHP Stack trace:
+[19-Nov-2015 03:55:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[19-Nov-2015 03:55:09 UTC] PHP   2. findCarModels() /home/ubuntu/workspace/assignment3/handler.php:11
+[19-Nov-2015 03:55:09 UTC] PHP   3. mysqli_fetch_all() /home/ubuntu/workspace/assignment3/handler.php:49
+[19-Nov-2015 03:55:09 UTC] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/assignment3/handler.php on line 63
+[19-Nov-2015 03:55:09 UTC] PHP Stack trace:
+[19-Nov-2015 03:55:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[19-Nov-2015 03:55:09 UTC] PHP   2. findCarEngines() /home/ubuntu/workspace/assignment3/handler.php:14
+[19-Nov-2015 03:55:09 UTC] PHP   3. mysqli_fetch_all() /home/ubuntu/workspace/assignment3/handler.php:63
+[19-Nov-2015 03:55:11 UTC] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/assignment3/handler.php on line 63
+[19-Nov-2015 03:55:11 UTC] PHP Stack trace:
+[19-Nov-2015 03:55:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[19-Nov-2015 03:55:11 UTC] PHP   2. findCarEngines() /home/ubuntu/workspace/assignment3/handler.php:14
+[19-Nov-2015 03:55:11 UTC] PHP   3. mysqli_fetch_all() /home/ubuntu/workspace/assignment3/handler.php:63
+[19-Nov-2015 03:55:11 UTC] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/assignment3/handler.php on line 49
+[19-Nov-2015 03:55:11 UTC] PHP Stack trace:
+[19-Nov-2015 03:55:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[19-Nov-2015 03:55:11 UTC] PHP   2. findCarModels() /home/ubuntu/workspace/assignment3/handler.php:11
+[19-Nov-2015 03:55:11 UTC] PHP   3. mysqli_fetch_all() /home/ubuntu/workspace/assignment3/handler.php:49
+[19-Nov-2015 03:55:56 UTC] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/assignment3/handler.php on line 49
+[19-Nov-2015 03:55:56 UTC] PHP Stack trace:
+[19-Nov-2015 03:55:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[19-Nov-2015 03:55:56 UTC] PHP   2. findCarModels() /home/ubuntu/workspace/assignment3/handler.php:11
+[19-Nov-2015 03:55:56 UTC] PHP   3. mysqli_fetch_all() /home/ubuntu/workspace/assignment3/handler.php:49
+[19-Nov-2015 03:55:56 UTC] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/assignment3/handler.php on line 63
+[19-Nov-2015 03:55:56 UTC] PHP Stack trace:
+[19-Nov-2015 03:55:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[19-Nov-2015 03:55:56 UTC] PHP   2. findCarEngines() /home/ubuntu/workspace/assignment3/handler.php:14
+[19-Nov-2015 03:55:56 UTC] PHP   3. mysqli_fetch_all() /home/ubuntu/workspace/assignment3/handler.php:63
+[19-Nov-2015 04:13:37 UTC] PHP Fatal error:  Call to undefined function mysli_query() in /home/ubuntu/workspace/assignment3/handler.php on line 79
+[19-Nov-2015 04:13:37 UTC] PHP Stack trace:
+[19-Nov-2015 04:13:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[19-Nov-2015 04:13:37 UTC] PHP   2. saveLeads() /home/ubuntu/workspace/assignment3/handler.php:17
+[19-Nov-2015 04:17:34 UTC] PHP Fatal error:  Call to undefined function mysli_query() in /home/ubuntu/workspace/assignment3/handler.php on line 80
+[19-Nov-2015 04:17:34 UTC] PHP Stack trace:
+[19-Nov-2015 04:17:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[19-Nov-2015 04:17:34 UTC] PHP   2. saveLeads() /home/ubuntu/workspace/assignment3/handler.php:17
+[19-Nov-2015 04:22:26 UTC] PHP Fatal error:  Call to undefined function mysli_query() in /home/ubuntu/workspace/assignment3/handler.php on line 84
+[19-Nov-2015 04:22:26 UTC] PHP Stack trace:
+[19-Nov-2015 04:22:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[19-Nov-2015 04:22:26 UTC] PHP   2. saveLeads() /home/ubuntu/workspace/assignment3/handler.php:17
+[19-Nov-2015 04:25:03 UTC] PHP Fatal error:  Call to undefined function mysli_query() in /home/ubuntu/workspace/assignment3/handler.php on line 84
+[19-Nov-2015 04:25:03 UTC] PHP Stack trace:
+[19-Nov-2015 04:25:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[19-Nov-2015 04:25:03 UTC] PHP   2. saveLeads() /home/ubuntu/workspace/assignment3/handler.php:17
+[19-Nov-2015 04:36:08 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/ubuntu/workspace/assignment3/handler.php on line 98
+[02-Dec-2015 17:45:41 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/assignment3/handler.php on line 85
+[02-Dec-2015 17:45:41 UTC] PHP Stack trace:
+[02-Dec-2015 17:45:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[02-Dec-2015 17:45:41 UTC] PHP   2. saveLeads() /home/ubuntu/workspace/assignment3/handler.php:17
+[02-Dec-2015 17:45:41 UTC] PHP   3. mysqli_fetch_assoc() /home/ubuntu/workspace/assignment3/handler.php:85
+[02-Dec-2015 17:45:41 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/assignment3/handler.php on line 89
+[02-Dec-2015 17:45:41 UTC] PHP Stack trace:
+[02-Dec-2015 17:45:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/assignment3/handler.php:0
+[02-Dec-2015 17:45:41 UTC] PHP   2. saveLeads() /home/ubuntu/workspace/assignment3/handler.php:17
+[02-Dec-2015 17:45:41 UTC] PHP   3. mysqli_fetch_assoc() /home/ubuntu/workspace/assignment3/handler.php:89
+[03-Dec-2015 01:17:31 UTC] PHP Parse error:  syntax error, unexpected ':', expecting ',' or ';' in /home/ubuntu/workspace/assignment3/handler.php on line 110
+[03-Dec-2015 03:41:29 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /home/ubuntu/workspace/assignment3/handler.php on line 134
+[03-Dec-2015 03:43:33 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/assignment3/handler.php on line 133
